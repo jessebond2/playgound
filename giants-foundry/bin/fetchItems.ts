@@ -9,17 +9,29 @@ type ItemRecord = Record<number, Item>;
 
 const LIMIT = 30000;
 const CONCURRENCY_LIMIT = 1;
+const THROTTLE_WAIT = 1000;
+const badIds: number[] = [];
 
 async function fetchResult(id: number) {
-  try {
-    const result = await grandexchange.getItem(id);
-    return result;
-  } catch (e) {
-    let error = e as AxiosError;
-    console.log(`Unable to find ${id}: ${error.code} ${error.message}`, error);
-
-    return undefined;
-  }
+  let tries = 0;
+  do {
+    try {
+      const result = await grandexchange.getItem(id);
+      return result;
+    } catch (e) {
+      let error = e as AxiosError;
+      console.log(`Unable to find ${id}: ${error.message}`);
+      if (
+        error.message.indexOf("HTTPError: Response code 404 (Not Found)") >= 0
+      ) {
+        badIds.push(id);
+      } else {
+        await sleep(30000);
+      }
+      tries++;
+    }
+  } while (tries < 5);
+  return undefined;
 }
 
 async function loadFile(path: string) {
@@ -41,7 +53,6 @@ async function loadRawItemIds() {
     const parts = line.split(" ");
 
     if (parts[2] !== "null") {
-      console.log(parts);
       ids.push(parseInt(parts[0]));
     }
   }
@@ -58,6 +69,15 @@ async function loadCompletedItems() {
   return completed;
 }
 
+async function loadBadItems() {
+  const path = join(__dirname, "..", "data", "badItemIds.txt");
+
+  const file = await loadFile(path);
+  const completed: number[] = file.split(",").map((x) => parseInt(x));
+
+  return completed;
+}
+
 function difference<T>(setA: Set<T>, setB: Set<T>) {
   let _difference = new Set(setA);
   for (let elem of Array.from(setB)) {
@@ -66,20 +86,37 @@ function difference<T>(setA: Set<T>, setB: Set<T>) {
   return _difference;
 }
 
-function getRemainingItemIds(completedItems: ItemRecord, rawItemIds: number[]) {
+function getRemainingItemIds(
+  completedItems: ItemRecord,
+  rawItemIds: number[],
+  badItemIds: number[]
+) {
   const completedSet = new Set(
     Object.keys(completedItems).map((x) => parseInt(x))
   );
   const rawSet = new Set(rawItemIds);
+  const badSet = new Set(badItemIds);
 
-  return Array.from(difference(rawSet, completedSet));
+  const partial = difference(rawSet, completedSet);
+  return Array.from(difference(partial, badSet));
 }
 
-async function writeData(data: ItemRecord) {
+async function writeItemData(data: ItemRecord) {
   const writeStream = createWriteStream(
     join(__dirname, "..", "data", "itemIds.json")
   );
   writeStream.write(JSON.stringify(data));
+  writeStream.on("finish", () => {
+    console.log("Finished writing file");
+    writeStream.end();
+  });
+}
+
+async function writeBadItemData(data: number[]) {
+  const writeStream = createWriteStream(
+    join(__dirname, "..", "data", "badItemIds.txt")
+  );
+  writeStream.write(data.join(","));
   writeStream.on("finish", () => {
     console.log("Finished writing file");
     writeStream.end();
@@ -104,7 +141,8 @@ async function sleep(ms: number) {
 async function main() {
   const items: ItemRecord = (await loadCompletedItems()) || {};
   const rawIds = await loadRawItemIds();
-  const remainingIds = getRemainingItemIds(items, rawIds);
+  const badItemIds = await loadBadItems();
+  const remainingIds = getRemainingItemIds(items, rawIds, badItemIds);
 
   console.log(
     `${remainingIds.length} remaining ids of the original ${rawIds.length} ids`
@@ -116,7 +154,7 @@ async function main() {
     async (task) => {
       const res = await fetchResult(task);
       progress++;
-      const completion = ((progress / LIMIT) * 100).toFixed(2);
+      const completion = ((progress / remainingIds.length) * 100).toFixed(2);
       if (res) {
         items[task] = res;
         console.log(`itemId ${task} found. ${completion}% done`);
@@ -124,11 +162,12 @@ async function main() {
         console.log(`itemId ${task} not found. ${completion}% done`);
       }
 
-      if (progress > 0 && progress % 100 === 0) {
-        writeData(sortItems(items));
+      if (progress > 0 && progress % 20 === 0) {
+        writeItemData(sortItems(items));
+        writeBadItemData(badIds);
       }
 
-      await sleep(5000);
+      await sleep(THROTTLE_WAIT);
     },
     CONCURRENCY_LIMIT
   );
@@ -137,7 +176,8 @@ async function main() {
     `Finished looking up items. Found ${Object.keys(items).length} items`
   );
 
-  writeData(sortItems(items));
+  writeItemData(sortItems(items));
+  writeBadItemData(badIds);
 }
 
 (async () => {
