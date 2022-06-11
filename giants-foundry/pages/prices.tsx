@@ -1,8 +1,14 @@
 import type { NextPage } from "next";
 import Head from "next/head";
-import { grandexchange } from "runescape-api/osrs";
+import { Item } from "runescape-api/lib/RuneScape";
+import { ItemRecord } from "../utils/types";
+import itemIds from "../data/itemIds.json";
 
-const Prices: NextPage = (props) => {
+interface PricesProps {
+  items: ItemRecord;
+}
+
+const Prices: NextPage<PricesProps> = ({ items }) => {
   return (
     <div>
       <Head>
@@ -12,27 +18,26 @@ const Prices: NextPage = (props) => {
       </Head>
       <main>
         <h1>Prices</h1>
-        <div>{JSON.stringify(props)}</div>
+        <div>
+          {Object.values(items).map((item: Item) => (
+            <div key={item.id}>
+              <span>Id: {item.id}, </span>
+              <span>Name: {item.name}, </span>
+              <span>Current Price: {item.trends.current.price}</span>
+            </div>
+          ))}
+        </div>
       </main>
     </div>
   );
 };
 
-async function fetchResult(id: number) {
-  try {
-    return grandexchange.getItem(id);
-  } catch (e) {
-    return {};
-  }
-}
-
 export async function getServerSideProps() {
-  const results = await Promise.all(
-    [1, 2, 3, 4, 5, 6, 7, 8, 9].map(fetchResult)
-  );
+  const items = itemIds;
+  
 
   return {
-    props: { results },
+    props: { items },
   };
 }
 

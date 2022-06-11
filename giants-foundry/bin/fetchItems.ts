@@ -1,13 +1,17 @@
-import { Item } from "runescape-api/lib/RuneScape";
 import { grandexchange } from "runescape-api/osrs";
-import { createWriteStream, createReadStream } from "fs";
-import { join } from "path";
 import asyncBatch from "async-batch";
 import { AxiosError } from "axios";
+import { ItemRecord } from "../utils/types";
+import {
+  loadBadItems,
+  loadCompletedItems,
+  loadRawItemIds,
+  writeBadItemData,
+  writeItemData,
+} from "../utils/file";
+import sleep from "../utils/sleep";
+import { difference } from "../utils/set";
 
-type ItemRecord = Record<number, Item>;
-
-const LIMIT = 30000;
 const CONCURRENCY_LIMIT = 1;
 const THROTTLE_WAIT = 500;
 const badIds: number[] = [];
@@ -27,64 +31,12 @@ async function fetchResult(id: number) {
         badIds.push(id);
         return;
       } else {
-        await sleep(30000);
+        await sleep(60000);
       }
       tries++;
     }
   } while (tries < 5);
   return undefined;
-}
-
-async function loadFile(path: string) {
-  const readable = createReadStream(path, { encoding: "utf8" });
-  let file = "";
-  for await (const chunk of readable) {
-    file += chunk;
-  }
-  return file;
-}
-
-async function loadRawItemIds() {
-  const path = join(__dirname, "..", "data", "raw item ids.txt");
-  const file = await loadFile(path);
-  const lines = file.split("\n").map((l) => l.trim());
-  const ids = [];
-
-  for (let line of lines) {
-    const parts = line.split(" ");
-
-    if (parts[2] !== "null") {
-      ids.push(parseInt(parts[0]));
-    }
-  }
-
-  return ids;
-}
-
-async function loadCompletedItems() {
-  const path = join(__dirname, "..", "data", "itemIds.json");
-
-  const file = await loadFile(path);
-  const completed: ItemRecord = JSON.parse(file);
-
-  return completed;
-}
-
-async function loadBadItems() {
-  const path = join(__dirname, "..", "data", "badItemIds.txt");
-
-  const file = await loadFile(path);
-  const completed: number[] = file.split(",").map((x) => parseInt(x));
-
-  return completed;
-}
-
-function difference<T>(setA: Set<T>, setB: Set<T>) {
-  let _difference = new Set(setA);
-  for (let elem of Array.from(setB)) {
-    _difference.delete(elem);
-  }
-  return _difference;
 }
 
 function getRemainingItemIds(
@@ -102,28 +54,6 @@ function getRemainingItemIds(
   return Array.from(difference(partial, badSet));
 }
 
-async function writeItemData(data: ItemRecord) {
-  const writeStream = createWriteStream(
-    join(__dirname, "..", "data", "itemIds.json")
-  );
-  writeStream.write(JSON.stringify(data));
-  writeStream.on("finish", () => {
-    console.log("Finished writing file");
-    writeStream.end();
-  });
-}
-
-async function writeBadItemData(data: number[]) {
-  const writeStream = createWriteStream(
-    join(__dirname, "..", "data", "badItemIds.txt")
-  );
-  writeStream.write(data.sort().join(","));
-  writeStream.on("finish", () => {
-    console.log("Finished writing file");
-    writeStream.end();
-  });
-}
-
 function sortItems(items: ItemRecord) {
   return Object.keys(items)
     .sort()
@@ -131,12 +61,6 @@ function sortItems(items: ItemRecord) {
       obj[parseInt(key)] = items[parseInt(key)];
       return obj;
     }, {} as ItemRecord);
-}
-
-async function sleep(ms: number) {
-  await new Promise((resolve) => {
-    setTimeout(resolve, ms);
-  });
 }
 
 async function main() {
