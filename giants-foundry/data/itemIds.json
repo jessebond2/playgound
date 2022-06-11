@@ -449,6 +449,24 @@
       "day180": { "trend": "negative", "change": "-50.0%" }
     }
   },
+  "62": {
+    "id": 62,
+    "name": "Maple longbow (u)",
+    "examine": "An unstrung maple longbow; I need a bowstring for this.",
+    "category": { "id": -1, "name": "Default" },
+    "members": true,
+    "icons": {
+      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=62",
+      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=62"
+    },
+    "trends": {
+      "current": { "trend": "neutral", "price": 73 },
+      "today": { "trend": "neutral", "price": 0 },
+      "day30": { "trend": "negative", "change": "-8.0%" },
+      "day90": { "trend": "negative", "change": "-29.0%" },
+      "day180": { "trend": "negative", "change": "-24.0%" }
+    }
+  },
   "64": {
     "id": 64,
     "name": "Maple shortbow (u)",
@@ -465,6 +483,24 @@
       "day30": { "trend": "negative", "change": "-1.0%" },
       "day90": { "trend": "negative", "change": "-17.0%" },
       "day180": { "trend": "negative", "change": "-14.0%" }
+    }
+  },
+  "66": {
+    "id": 66,
+    "name": "Yew longbow (u)",
+    "examine": "An unstrung yew longbow; I need a bowstring for this.",
+    "category": { "id": -1, "name": "Default" },
+    "members": true,
+    "icons": {
+      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=66",
+      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=66"
+    },
+    "trends": {
+      "current": { "trend": "neutral", "price": 285 },
+      "today": { "trend": "positive", "price": "+3" },
+      "day30": { "trend": "negative", "change": "-4.0%" },
+      "day90": { "trend": "positive", "change": "+0.0%" },
+      "day180": { "trend": "negative", "change": "-2.0%" }
     }
   },
   "68": {
@@ -485,6 +521,1158 @@
       "day180": { "trend": "positive", "change": "+2.0%" }
     }
   },
+  "70": {
+    "id": 70,
+    "name": "Magic longbow (u)",
+    "examine": "An unstrung magic longbow; I need a bowstring for this.",
+    "category": { "id": -1, "name": "Default" },
+    "members": true,
+    "icons": {
+      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=70",
+      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=70"
+    },
+    "trends": {
+      "current": { "trend": "neutral", "price": "1,043" },
+      "today": { "trend": "positive", "price": "+14" },
+      "day30": { "trend": "positive", "change": "+1.0%" },
+      "day90": { "trend": "positive", "change": "+5.0%" },
+      "day180": { "trend": "positive", "change": "+4.0%" }
+    }
+  },
+  "72": {
+    "id": 72,
+    "name": "Magic shortbow (u)",
+    "examine": "An unstrung magic shortbow; I need a bowstring for this.",
+    "category": { "id": -1, "name": "Default" },
+    "members": true,
+    "icons": {
+      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=72",
+      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=72"
+    },
+    "trends": {
+      "current": { "trend": "neutral", "price": 725 },
+      "today": { "trend": "neutral", "price": 0 },
+      "day30": { "trend": "negative", "change": "-12.0%" },
+      "day90": { "trend": "negative", "change": "-0.0%" },
+      "day180": { "trend": "negative", "change": "-10.0%" }
+    }
+  },
+  "91": {
+    "id": 91,
+    "name": "Guam potion (unf)",
+    "examine": "I need another ingredient to finish this Guam potion.",
+    "category": { "id": -1, "name": "Default" },
+    "members": true,
+    "icons": {
+      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=91",
+      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=91"
+    },
+    "trends": {
+      "current": { "trend": "neutral", "price": 167 },
+      "today": { "trend": "positive", "price": "+5" },
+      "day30": { "trend": "negative", "change": "-4.0%" },
+      "day90": { "trend": "positive", "change": "+11.0%" },
+      "day180": { "trend": "positive", "change": "+73.0%" }
+    }
+  },
+  "93": {
+    "id": 93,
+    "name": "Marrentill potion (unf)",
+    "examine": "I need another ingredient to finish this Marrentill potion.",
+    "category": { "id": -1, "name": "Default" },
+    "members": true,
+    "icons": {
+      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=93",
+      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=93"
+    },
+    "trends": {
+      "current": { "trend": "neutral", "price": 71 },
+      "today": { "trend": "negative", "price": "- 3" },
+      "day30": { "trend": "negative", "change": "-2.0%" },
+      "day90": { "trend": "positive", "change": "+2.0%" },
+      "day180": { "trend": "positive", "change": "+22.0%" }
+    }
+  },
+  "95": {
+    "id": 95,
+    "name": "Tarromin potion (unf)",
+    "examine": "I need another ingredient to finish this Tarromin potion.",
+    "category": { "id": -1, "name": "Default" },
+    "members": true,
+    "icons": {
+      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=95",
+      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=95"
+    },
+    "trends": {
+      "current": { "trend": "neutral", "price": 218 },
+      "today": { "trend": "negative", "price": "- 1" },
+      "day30": { "trend": "positive", "change": "+7.0%" },
+      "day90": { "trend": "positive", "change": "+22.0%" },
+      "day180": { "trend": "neutral", "change": "0.0%" }
+    }
+  },
+  "97": {
+    "id": 97,
+    "name": "Harralander potion (unf)",
+    "examine": "I need another ingredient to finish this Harralander potion.",
+    "category": { "id": -1, "name": "Default" },
+    "members": true,
+    "icons": {
+      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=97",
+      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=97"
+    },
+    "trends": {
+      "current": { "trend": "neutral", "price": 973 },
+      "today": { "trend": "positive", "price": "+11" },
+      "day30": { "trend": "positive", "change": "+6.0%" },
+      "day90": { "trend": "negative", "change": "-9.0%" },
+      "day180": { "trend": "positive", "change": "+17.0%" }
+    }
+  },
+  "99": {
+    "id": 99,
+    "name": "Ranarr potion (unf)",
+    "examine": "I need another ingredient to finish this Ranarr potion.",
+    "category": { "id": -1, "name": "Default" },
+    "members": true,
+    "icons": {
+      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=99",
+      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=99"
+    },
+    "trends": {
+      "current": { "trend": "neutral", "price": "9,634" },
+      "today": { "trend": "negative", "price": "- 77" },
+      "day30": { "trend": "positive", "change": "+8.0%" },
+      "day90": { "trend": "negative", "change": "-4.0%" },
+      "day180": { "trend": "positive", "change": "+27.0%" }
+    }
+  },
+  "101": {
+    "id": 101,
+    "name": "Irit potion (unf)",
+    "examine": "I need another ingredient to finish this Irit potion.",
+    "category": { "id": -1, "name": "Default" },
+    "members": true,
+    "icons": {
+      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=101",
+      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=101"
+    },
+    "trends": {
+      "current": { "trend": "neutral", "price": 975 },
+      "today": { "trend": "neutral", "price": 0 },
+      "day30": { "trend": "negative", "change": "-2.0%" },
+      "day90": { "trend": "positive", "change": "+10.0%" },
+      "day180": { "trend": "positive", "change": "+8.0%" }
+    }
+  },
+  "103": {
+    "id": 103,
+    "name": "Avantoe potion (unf)",
+    "examine": "I need another ingredient to finish this Avantoe potion.",
+    "category": { "id": -1, "name": "Default" },
+    "members": true,
+    "icons": {
+      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=103",
+      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=103"
+    },
+    "trends": {
+      "current": { "trend": "neutral", "price": "1,749" },
+      "today": { "trend": "positive", "price": "+2" },
+      "day30": { "trend": "negative", "change": "-15.0%" },
+      "day90": { "trend": "negative", "change": "-33.0%" },
+      "day180": { "trend": "negative", "change": "-9.0%" }
+    }
+  },
+  "105": {
+    "id": 105,
+    "name": "Kwuarm potion (unf)",
+    "examine": "I need another ingredient to finish this Kwuarm potion.",
+    "category": { "id": -1, "name": "Default" },
+    "members": true,
+    "icons": {
+      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=105",
+      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=105"
+    },
+    "trends": {
+      "current": { "trend": "neutral", "price": "1,807" },
+      "today": { "trend": "negative", "price": "- 19" },
+      "day30": { "trend": "negative", "change": "-3.0%" },
+      "day90": { "trend": "positive", "change": "+5.0%" },
+      "day180": { "trend": "positive", "change": "+9.0%" }
+    }
+  },
+  "107": {
+    "id": 107,
+    "name": "Cadantine potion (unf)",
+    "examine": "I need another ingredient to finish this Cadantine potion.",
+    "category": { "id": -1, "name": "Default" },
+    "members": true,
+    "icons": {
+      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=107",
+      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=107"
+    },
+    "trends": {
+      "current": { "trend": "neutral", "price": "1,928" },
+      "today": { "trend": "negative", "price": "- 17" },
+      "day30": { "trend": "negative", "change": "-10.0%" },
+      "day90": { "trend": "negative", "change": "-1.0%" },
+      "day180": { "trend": "negative", "change": "-1.0%" }
+    }
+  },
+  "109": {
+    "id": 109,
+    "name": "Dwarf weed potion (unf)",
+    "examine": "I need another ingredient to finish this Dwarf Weed potion.",
+    "category": { "id": -1, "name": "Default" },
+    "members": true,
+    "icons": {
+      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=109",
+      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=109"
+    },
+    "trends": {
+      "current": { "trend": "neutral", "price": "1,097" },
+      "today": { "trend": "negative", "price": "- 4" },
+      "day30": { "trend": "negative", "change": "-4.0%" },
+      "day90": { "trend": "negative", "change": "-6.0%" },
+      "day180": { "trend": "negative", "change": "-0.0%" }
+    }
+  },
+  "111": {
+    "id": 111,
+    "name": "Torstol potion (unf)",
+    "examine": "I need another ingredient to finish this Torstol potion.",
+    "category": { "id": -1, "name": "Default" },
+    "members": true,
+    "icons": {
+      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=111",
+      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=111"
+    },
+    "trends": {
+      "current": { "trend": "neutral", "price": "8,724" },
+      "today": { "trend": "neutral", "price": 0 },
+      "day30": { "trend": "positive", "change": "+0.0%" },
+      "day90": { "trend": "positive", "change": "+5.0%" },
+      "day180": { "trend": "positive", "change": "+17.0%" }
+    }
+  },
+  "113": {
+    "id": 113,
+    "name": "Strength potion(4)",
+    "examine": "4 doses of Strength potion.",
+    "category": { "id": -1, "name": "Default" },
+    "members": false,
+    "icons": {
+      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=113",
+      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=113"
+    },
+    "trends": {
+      "current": { "trend": "neutral", "price": 324 },
+      "today": { "trend": "negative", "price": "- 6" },
+      "day30": { "trend": "negative", "change": "-4.0%" },
+      "day90": { "trend": "negative", "change": "-12.0%" },
+      "day180": { "trend": "positive", "change": "+9.0%" }
+    }
+  },
+  "115": {
+    "id": 115,
+    "name": "Strength potion(3)",
+    "examine": "3 doses of Strength potion.",
+    "category": { "id": -1, "name": "Default" },
+    "members": false,
+    "icons": {
+      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=115",
+      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=115"
+    },
+    "trends": {
+      "current": { "trend": "neutral", "price": 223 },
+      "today": { "trend": "negative", "price": "- 9" },
+      "day30": { "trend": "negative", "change": "-9.0%" },
+      "day90": { "trend": "negative", "change": "-5.0%" },
+      "day180": { "trend": "positive", "change": "+6.0%" }
+    }
+  },
+  "117": {
+    "id": 117,
+    "name": "Strength potion(2)",
+    "examine": "2 doses of Strength potion.",
+    "category": { "id": -1, "name": "Default" },
+    "members": false,
+    "icons": {
+      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=117",
+      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=117"
+    },
+    "trends": {
+      "current": { "trend": "neutral", "price": 151 },
+      "today": { "trend": "neutral", "price": 0 },
+      "day30": { "trend": "negative", "change": "-8.0%" },
+      "day90": { "trend": "positive", "change": "+1.0%" },
+      "day180": { "trend": "positive", "change": "+23.0%" }
+    }
+  },
+  "119": {
+    "id": 119,
+    "name": "Strength potion(1)",
+    "examine": "1 dose of Strength potion.",
+    "category": { "id": -1, "name": "Default" },
+    "members": false,
+    "icons": {
+      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=119",
+      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=119"
+    },
+    "trends": {
+      "current": { "trend": "neutral", "price": 79 },
+      "today": { "trend": "neutral", "price": 0 },
+      "day30": { "trend": "neutral", "change": "0.0%" },
+      "day90": { "trend": "positive", "change": "+14.0%" },
+      "day180": { "trend": "positive", "change": "+16.0%" }
+    }
+  },
+  "121": {
+    "id": 121,
+    "name": "Attack potion(3)",
+    "examine": "3 doses of Attack potion.",
+    "category": { "id": -1, "name": "Default" },
+    "members": true,
+    "icons": {
+      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=121",
+      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=121"
+    },
+    "trends": {
+      "current": { "trend": "neutral", "price": 4 },
+      "today": { "trend": "neutral", "price": 0 },
+      "day30": { "trend": "positive", "change": "+33.0%" },
+      "day90": { "trend": "neutral", "change": "0.0%" },
+      "day180": { "trend": "positive", "change": "+33.0%" }
+    }
+  },
+  "123": {
+    "id": 123,
+    "name": "Attack potion(2)",
+    "examine": "2 doses of Attack potion.",
+    "category": { "id": -1, "name": "Default" },
+    "members": true,
+    "icons": {
+      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=123",
+      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=123"
+    },
+    "trends": {
+      "current": { "trend": "neutral", "price": 5 },
+      "today": { "trend": "neutral", "price": 0 },
+      "day30": { "trend": "negative", "change": "-16.0%" },
+      "day90": { "trend": "neutral", "change": "0.0%" },
+      "day180": { "trend": "neutral", "change": "0.0%" }
+    }
+  },
+  "125": {
+    "id": 125,
+    "name": "Attack potion(1)",
+    "examine": "1 dose of Attack potion.",
+    "category": { "id": -1, "name": "Default" },
+    "members": true,
+    "icons": {
+      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=125",
+      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=125"
+    },
+    "trends": {
+      "current": { "trend": "neutral", "price": 3 },
+      "today": { "trend": "neutral", "price": 0 },
+      "day30": { "trend": "positive", "change": "+50.0%" },
+      "day90": { "trend": "positive", "change": "+50.0%" },
+      "day180": { "trend": "positive", "change": "+50.0%" }
+    }
+  },
+  "127": {
+    "id": 127,
+    "name": "Restore potion(3)",
+    "examine": "3 doses of restore potion.",
+    "category": { "id": -1, "name": "Default" },
+    "members": true,
+    "icons": {
+      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=127",
+      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=127"
+    },
+    "trends": {
+      "current": { "trend": "neutral", "price": 75 },
+      "today": { "trend": "neutral", "price": 0 },
+      "day30": { "trend": "positive", "change": "+8.0%" },
+      "day90": { "trend": "positive", "change": "+29.0%" },
+      "day180": { "trend": "positive", "change": "+102.0%" }
+    }
+  },
+  "129": {
+    "id": 129,
+    "name": "Restore potion(2)",
+    "examine": "2 doses of restore potion.",
+    "category": { "id": -1, "name": "Default" },
+    "members": true,
+    "icons": {
+      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=129",
+      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=129"
+    },
+    "trends": {
+      "current": { "trend": "neutral", "price": 51 },
+      "today": { "trend": "neutral", "price": 0 },
+      "day30": { "trend": "positive", "change": "+2.0%" },
+      "day90": { "trend": "positive", "change": "+4.0%" },
+      "day180": { "trend": "positive", "change": "+15.0%" }
+    }
+  },
+  "131": {
+    "id": 131,
+    "name": "Restore potion(1)",
+    "examine": "1 dose of restore potion.",
+    "category": { "id": -1, "name": "Default" },
+    "members": true,
+    "icons": {
+      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=131",
+      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=131"
+    },
+    "trends": {
+      "current": { "trend": "neutral", "price": 26 },
+      "today": { "trend": "neutral", "price": 0 },
+      "day30": { "trend": "positive", "change": "+4.0%" },
+      "day90": { "trend": "neutral", "change": "0.0%" },
+      "day180": { "trend": "neutral", "change": "0.0%" }
+    }
+  },
+  "133": {
+    "id": 133,
+    "name": "Defence potion(3)",
+    "examine": "3 doses of Defence potion.",
+    "category": { "id": -1, "name": "Default" },
+    "members": true,
+    "icons": {
+      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=133",
+      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=133"
+    },
+    "trends": {
+      "current": { "trend": "neutral", "price": 246 },
+      "today": { "trend": "neutral", "price": 0 },
+      "day30": { "trend": "positive", "change": "+10.0%" },
+      "day90": { "trend": "negative", "change": "-0.0%" },
+      "day180": { "trend": "positive", "change": "+7.0%" }
+    }
+  },
+  "135": {
+    "id": 135,
+    "name": "Defence potion(2)",
+    "examine": "2 doses of Defence potion.",
+    "category": { "id": -1, "name": "Default" },
+    "members": true,
+    "icons": {
+      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=135",
+      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=135"
+    },
+    "trends": {
+      "current": { "trend": "neutral", "price": 166 },
+      "today": { "trend": "neutral", "price": 0 },
+      "day30": { "trend": "positive", "change": "+5.0%" },
+      "day90": { "trend": "positive", "change": "+6.0%" },
+      "day180": { "trend": "positive", "change": "+3.0%" }
+    }
+  },
+  "137": {
+    "id": 137,
+    "name": "Defence potion(1)",
+    "examine": "1 dose of Defence potion.",
+    "category": { "id": -1, "name": "Default" },
+    "members": true,
+    "icons": {
+      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=137",
+      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=137"
+    },
+    "trends": {
+      "current": { "trend": "neutral", "price": 109 },
+      "today": { "trend": "neutral", "price": 0 },
+      "day30": { "trend": "positive", "change": "+3.0%" },
+      "day90": { "trend": "positive", "change": "+5.0%" },
+      "day180": { "trend": "positive", "change": "+2.0%" }
+    }
+  },
+  "139": {
+    "id": 139,
+    "name": "Prayer potion(3)",
+    "examine": "3 doses of Prayer restore potion.",
+    "category": { "id": -1, "name": "Default" },
+    "members": true,
+    "icons": {
+      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=139",
+      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=139"
+    },
+    "trends": {
+      "current": { "trend": "neutral", "price": "9,370" },
+      "today": { "trend": "negative", "price": "- 101" },
+      "day30": { "trend": "positive", "change": "+11.0%" },
+      "day90": { "trend": "negative", "change": "-4.0%" },
+      "day180": { "trend": "positive", "change": "+34.0%" }
+    }
+  },
+  "141": {
+    "id": 141,
+    "name": "Prayer potion(2)",
+    "examine": "2 doses of Prayer restore potion.",
+    "category": { "id": -1, "name": "Default" },
+    "members": true,
+    "icons": {
+      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=141",
+      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=141"
+    },
+    "trends": {
+      "current": { "trend": "neutral", "price": "6,266" },
+      "today": { "trend": "neutral", "price": 0 },
+      "day30": { "trend": "positive", "change": "+17.0%" },
+      "day90": { "trend": "negative", "change": "-5.0%" },
+      "day180": { "trend": "positive", "change": "+34.0%" }
+    }
+  },
+  "143": {
+    "id": 143,
+    "name": "Prayer potion(1)",
+    "examine": "1 dose of Prayer restore potion.",
+    "category": { "id": -1, "name": "Default" },
+    "members": true,
+    "icons": {
+      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=143",
+      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=143"
+    },
+    "trends": {
+      "current": { "trend": "neutral", "price": "3,108" },
+      "today": { "trend": "positive", "price": "+7" },
+      "day30": { "trend": "positive", "change": "+19.0%" },
+      "day90": { "trend": "negative", "change": "-4.0%" },
+      "day180": { "trend": "positive", "change": "+32.0%" }
+    }
+  },
+  "145": {
+    "id": 145,
+    "name": "Super attack(3)",
+    "examine": "3 doses of super Attack potion.",
+    "category": { "id": -1, "name": "Default" },
+    "members": true,
+    "icons": {
+      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=145",
+      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=145"
+    },
+    "trends": {
+      "current": { "trend": "neutral", "price": 118 },
+      "today": { "trend": "negative", "price": "- 3" },
+      "day30": { "trend": "negative", "change": "-19.0%" },
+      "day90": { "trend": "negative", "change": "-20.0%" },
+      "day180": { "trend": "negative", "change": "-24.0%" }
+    }
+  },
+  "147": {
+    "id": 147,
+    "name": "Super attack(2)",
+    "examine": "2 doses of super Attack potion.",
+    "category": { "id": -1, "name": "Default" },
+    "members": true,
+    "icons": {
+      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=147",
+      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=147"
+    },
+    "trends": {
+      "current": { "trend": "neutral", "price": 91 },
+      "today": { "trend": "neutral", "price": 0 },
+      "day30": { "trend": "negative", "change": "-3.0%" },
+      "day90": { "trend": "positive", "change": "+1.0%" },
+      "day180": { "trend": "positive", "change": "+2.0%" }
+    }
+  },
+  "149": {
+    "id": 149,
+    "name": "Super attack(1)",
+    "examine": "1 dose of super Attack potion.",
+    "category": { "id": -1, "name": "Default" },
+    "members": true,
+    "icons": {
+      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=149",
+      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=149"
+    },
+    "trends": {
+      "current": { "trend": "neutral", "price": 45 },
+      "today": { "trend": "neutral", "price": 0 },
+      "day30": { "trend": "positive", "change": "+2.0%" },
+      "day90": { "trend": "positive", "change": "+12.0%" },
+      "day180": { "trend": "neutral", "change": "0.0%" }
+    }
+  },
+  "151": {
+    "id": 151,
+    "name": "Fishing potion(3)",
+    "examine": "3 doses of Fishing potion.",
+    "category": { "id": -1, "name": "Default" },
+    "members": true,
+    "icons": {
+      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=151",
+      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=151"
+    },
+    "trends": {
+      "current": { "trend": "neutral", "price": 99 },
+      "today": { "trend": "neutral", "price": 0 },
+      "day30": { "trend": "neutral", "change": "0.0%" },
+      "day90": { "trend": "positive", "change": "+2.0%" },
+      "day180": { "trend": "negative", "change": "-11.0%" }
+    }
+  },
+  "153": {
+    "id": 153,
+    "name": "Fishing potion(2)",
+    "examine": "2 doses of Fishing potion.",
+    "category": { "id": -1, "name": "Default" },
+    "members": true,
+    "icons": {
+      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=153",
+      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=153"
+    },
+    "trends": {
+      "current": { "trend": "neutral", "price": 115 },
+      "today": { "trend": "neutral", "price": 0 },
+      "day30": { "trend": "neutral", "change": "0.0%" },
+      "day90": { "trend": "negative", "change": "-3.0%" },
+      "day180": { "trend": "negative", "change": "-2.0%" }
+    }
+  },
+  "155": {
+    "id": 155,
+    "name": "Fishing potion(1)",
+    "examine": "1 dose of Fishing potion.",
+    "category": { "id": -1, "name": "Default" },
+    "members": true,
+    "icons": {
+      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=155",
+      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=155"
+    },
+    "trends": {
+      "current": { "trend": "neutral", "price": 43 },
+      "today": { "trend": "neutral", "price": 0 },
+      "day30": { "trend": "neutral", "change": "0.0%" },
+      "day90": { "trend": "negative", "change": "-2.0%" },
+      "day180": { "trend": "negative", "change": "-6.0%" }
+    }
+  },
+  "157": {
+    "id": 157,
+    "name": "Super strength(3)",
+    "examine": "3 doses of super Strength potion.",
+    "category": { "id": -1, "name": "Default" },
+    "members": true,
+    "icons": {
+      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=157",
+      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=157"
+    },
+    "trends": {
+      "current": { "trend": "neutral", "price": "1,400" },
+      "today": { "trend": "neutral", "price": 0 },
+      "day30": { "trend": "positive", "change": "+3.0%" },
+      "day90": { "trend": "negative", "change": "-9.0%" },
+      "day180": { "trend": "positive", "change": "+0.0%" }
+    }
+  },
+  "159": {
+    "id": 159,
+    "name": "Super strength(2)",
+    "examine": "2 doses of super Strength potion.",
+    "category": { "id": -1, "name": "Default" },
+    "members": true,
+    "icons": {
+      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=159",
+      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=159"
+    },
+    "trends": {
+      "current": { "trend": "neutral", "price": 933 },
+      "today": { "trend": "neutral", "price": 0 },
+      "day30": { "trend": "negative", "change": "-3.0%" },
+      "day90": { "trend": "negative", "change": "-1.0%" },
+      "day180": { "trend": "negative", "change": "-0.0%" }
+    }
+  },
+  "161": {
+    "id": 161,
+    "name": "Super strength(1)",
+    "examine": "1 dose of super Strength potion.",
+    "category": { "id": -1, "name": "Default" },
+    "members": true,
+    "icons": {
+      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=161",
+      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=161"
+    },
+    "trends": {
+      "current": { "trend": "neutral", "price": 461 },
+      "today": { "trend": "neutral", "price": 0 },
+      "day30": { "trend": "negative", "change": "-2.0%" },
+      "day90": { "trend": "positive", "change": "+6.0%" },
+      "day180": { "trend": "positive", "change": "+5.0%" }
+    }
+  },
+  "163": {
+    "id": 163,
+    "name": "Super defence(3)",
+    "examine": "3 doses of super Defence potion.",
+    "category": { "id": -1, "name": "Default" },
+    "members": true,
+    "icons": {
+      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=163",
+      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=163"
+    },
+    "trends": {
+      "current": { "trend": "neutral", "price": 761 },
+      "today": { "trend": "negative", "price": "- 32" },
+      "day30": { "trend": "negative", "change": "-10.0%" },
+      "day90": { "trend": "negative", "change": "-6.0%" },
+      "day180": { "trend": "positive", "change": "+27.0%" }
+    }
+  },
+  "165": {
+    "id": 165,
+    "name": "Super defence(2)",
+    "examine": "2 doses of super Defence potion.",
+    "category": { "id": -1, "name": "Default" },
+    "members": true,
+    "icons": {
+      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=165",
+      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=165"
+    },
+    "trends": {
+      "current": { "trend": "neutral", "price": 505 },
+      "today": { "trend": "neutral", "price": 0 },
+      "day30": { "trend": "positive", "change": "+0.0%" },
+      "day90": { "trend": "positive", "change": "+19.0%" },
+      "day180": { "trend": "positive", "change": "+33.0%" }
+    }
+  },
+  "167": {
+    "id": 167,
+    "name": "Super defence(1)",
+    "examine": "1 dose of super Defence potion.",
+    "category": { "id": -1, "name": "Default" },
+    "members": true,
+    "icons": {
+      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=167",
+      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=167"
+    },
+    "trends": {
+      "current": { "trend": "neutral", "price": 226 },
+      "today": { "trend": "neutral", "price": 0 },
+      "day30": { "trend": "positive", "change": "+5.0%" },
+      "day90": { "trend": "positive", "change": "+12.0%" },
+      "day180": { "trend": "positive", "change": "+12.0%" }
+    }
+  },
+  "169": {
+    "id": 169,
+    "name": "Ranging potion(3)",
+    "examine": "3 doses of ranging potion.",
+    "category": { "id": -1, "name": "Default" },
+    "members": true,
+    "icons": {
+      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=169",
+      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=169"
+    },
+    "trends": {
+      "current": { "trend": "neutral", "price": 357 },
+      "today": { "trend": "positive", "price": "+15" },
+      "day30": { "trend": "positive", "change": "+21.0%" },
+      "day90": { "trend": "positive", "change": "+0.0%" },
+      "day180": { "trend": "positive", "change": "+76.0%" }
+    }
+  },
+  "171": {
+    "id": 171,
+    "name": "Ranging potion(2)",
+    "examine": "2 doses of ranging potion.",
+    "category": { "id": -1, "name": "Default" },
+    "members": true,
+    "icons": {
+      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=171",
+      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=171"
+    },
+    "trends": {
+      "current": { "trend": "neutral", "price": 251 },
+      "today": { "trend": "neutral", "price": 0 },
+      "day30": { "trend": "positive", "change": "+8.0%" },
+      "day90": { "trend": "negative", "change": "-4.0%" },
+      "day180": { "trend": "positive", "change": "+79.0%" }
+    }
+  },
+  "173": {
+    "id": 173,
+    "name": "Ranging potion(1)",
+    "examine": "1 dose of ranging potion.",
+    "category": { "id": -1, "name": "Default" },
+    "members": true,
+    "icons": {
+      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=173",
+      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=173"
+    },
+    "trends": {
+      "current": { "trend": "neutral", "price": 122 },
+      "today": { "trend": "neutral", "price": 0 },
+      "day30": { "trend": "positive", "change": "+7.0%" },
+      "day90": { "trend": "negative", "change": "-0.0%" },
+      "day180": { "trend": "positive", "change": "+74.0%" }
+    }
+  },
+  "175": {
+    "id": 175,
+    "name": "Antipoison(3)",
+    "examine": "3 doses of antipoison potion.",
+    "category": { "id": -1, "name": "Default" },
+    "members": false,
+    "icons": {
+      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=175",
+      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=175"
+    },
+    "trends": {
+      "current": { "trend": "neutral", "price": 138 },
+      "today": { "trend": "positive", "price": "+1" },
+      "day30": { "trend": "positive", "change": "+12.0%" },
+      "day90": { "trend": "positive", "change": "+14.0%" },
+      "day180": { "trend": "positive", "change": "+31.0%" }
+    }
+  },
+  "177": {
+    "id": 177,
+    "name": "Antipoison(2)",
+    "examine": "2 doses of antipoison potion.",
+    "category": { "id": -1, "name": "Default" },
+    "members": false,
+    "icons": {
+      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=177",
+      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=177"
+    },
+    "trends": {
+      "current": { "trend": "neutral", "price": 113 },
+      "today": { "trend": "neutral", "price": 0 },
+      "day30": { "trend": "negative", "change": "-5.0%" },
+      "day90": { "trend": "positive", "change": "+1.0%" },
+      "day180": { "trend": "positive", "change": "+9.0%" }
+    }
+  },
+  "179": {
+    "id": 179,
+    "name": "Antipoison(1)",
+    "examine": "1 dose of antipoison potion.",
+    "category": { "id": -1, "name": "Default" },
+    "members": false,
+    "icons": {
+      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=179",
+      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=179"
+    },
+    "trends": {
+      "current": { "trend": "neutral", "price": 61 },
+      "today": { "trend": "neutral", "price": 0 },
+      "day30": { "trend": "positive", "change": "+5.0%" },
+      "day90": { "trend": "positive", "change": "+1.0%" },
+      "day180": { "trend": "positive", "change": "+3.0%" }
+    }
+  },
+  "181": {
+    "id": 181,
+    "name": "Superantipoison(3)",
+    "examine": "3 doses of super antipoison potion.",
+    "category": { "id": -1, "name": "Default" },
+    "members": true,
+    "icons": {
+      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=181",
+      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=181"
+    },
+    "trends": {
+      "current": { "trend": "neutral", "price": 221 },
+      "today": { "trend": "neutral", "price": 0 },
+      "day30": { "trend": "positive", "change": "+0.0%" },
+      "day90": { "trend": "positive", "change": "+2.0%" },
+      "day180": { "trend": "positive", "change": "+62.0%" }
+    }
+  },
+  "183": {
+    "id": 183,
+    "name": "Superantipoison(2)",
+    "examine": "2 doses of super antipoison potion.",
+    "category": { "id": -1, "name": "Default" },
+    "members": true,
+    "icons": {
+      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=183",
+      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=183"
+    },
+    "trends": {
+      "current": { "trend": "neutral", "price": 121 },
+      "today": { "trend": "neutral", "price": 0 },
+      "day30": { "trend": "positive", "change": "+5.0%" },
+      "day90": { "trend": "positive", "change": "+14.0%" },
+      "day180": { "trend": "positive", "change": "+32.0%" }
+    }
+  },
+  "185": {
+    "id": 185,
+    "name": "Superantipoison(1)",
+    "examine": "1 dose of super antipoison potion.",
+    "category": { "id": -1, "name": "Default" },
+    "members": true,
+    "icons": {
+      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=185",
+      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=185"
+    },
+    "trends": {
+      "current": { "trend": "neutral", "price": 78 },
+      "today": { "trend": "positive", "price": "+2" },
+      "day30": { "trend": "positive", "change": "+6.0%" },
+      "day90": { "trend": "positive", "change": "+21.0%" },
+      "day180": { "trend": "positive", "change": "+29.0%" }
+    }
+  },
+  "187": {
+    "id": 187,
+    "name": "Weapon poison",
+    "examine": "For use on daggers and projectiles.",
+    "category": { "id": -1, "name": "Default" },
+    "members": true,
+    "icons": {
+      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=187",
+      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=187"
+    },
+    "trends": {
+      "current": { "trend": "neutral", "price": 424 },
+      "today": { "trend": "neutral", "price": 0 },
+      "day30": { "trend": "positive", "change": "+9.0%" },
+      "day90": { "trend": "positive", "change": "+6.0%" },
+      "day180": { "trend": "positive", "change": "+9.0%" }
+    }
+  },
+  "189": {
+    "id": 189,
+    "name": "Zamorak brew(3)",
+    "examine": "3 doses of Zamorak brew.",
+    "category": { "id": -1, "name": "Default" },
+    "members": true,
+    "icons": {
+      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=189",
+      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=189"
+    },
+    "trends": {
+      "current": { "trend": "neutral", "price": "2,158" },
+      "today": { "trend": "neutral", "price": 0 },
+      "day30": { "trend": "positive", "change": "+4.0%" },
+      "day90": { "trend": "positive", "change": "+27.0%" },
+      "day180": { "trend": "positive", "change": "+73.0%" }
+    }
+  },
+  "191": {
+    "id": 191,
+    "name": "Zamorak brew(2)",
+    "examine": "2 doses of Zamorak brew.",
+    "category": { "id": -1, "name": "Default" },
+    "members": true,
+    "icons": {
+      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=191",
+      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=191"
+    },
+    "trends": {
+      "current": { "trend": "neutral", "price": "1,136" },
+      "today": { "trend": "neutral", "price": 0 },
+      "day30": { "trend": "positive", "change": "+3.0%" },
+      "day90": { "trend": "positive", "change": "+7.0%" },
+      "day180": { "trend": "positive", "change": "+19.0%" }
+    }
+  },
+  "193": {
+    "id": 193,
+    "name": "Zamorak brew(1)",
+    "examine": "1 dose of Zamorak brew.",
+    "category": { "id": -1, "name": "Default" },
+    "members": true,
+    "icons": {
+      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=193",
+      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=193"
+    },
+    "trends": {
+      "current": { "trend": "neutral", "price": 792 },
+      "today": { "trend": "neutral", "price": 0 },
+      "day30": { "trend": "neutral", "change": "0.0%" },
+      "day90": { "trend": "positive", "change": "+4.0%" },
+      "day180": { "trend": "positive", "change": "+9.0%" }
+    }
+  },
+  "197": {
+    "id": 197,
+    "name": "Poison chalice",
+    "examine": "A cup of a strange brew...",
+    "category": { "id": -1, "name": "Default" },
+    "members": true,
+    "icons": {
+      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=197",
+      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=197"
+    },
+    "trends": {
+      "current": { "trend": "neutral", "price": "1,348" },
+      "today": { "trend": "neutral", "price": 0 },
+      "day30": { "trend": "positive", "change": "+10.0%" },
+      "day90": { "trend": "positive", "change": "+28.0%" },
+      "day180": { "trend": "positive", "change": "+36.0%" }
+    }
+  },
+  "199": {
+    "id": 199,
+    "name": "Grimy guam leaf",
+    "examine": "It needs cleaning.",
+    "category": { "id": -1, "name": "Default" },
+    "members": true,
+    "icons": {
+      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=199",
+      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=199"
+    },
+    "trends": {
+      "current": { "trend": "neutral", "price": 57 },
+      "today": { "trend": "negative", "price": "- 4" },
+      "day30": { "trend": "negative", "change": "-12.0%" },
+      "day90": { "trend": "positive", "change": "+23.0%" },
+      "day180": { "trend": "positive", "change": "+185.0%" }
+    }
+  },
+  "201": {
+    "id": 201,
+    "name": "Grimy marrentill",
+    "examine": "It needs cleaning.",
+    "category": { "id": -1, "name": "Default" },
+    "members": true,
+    "icons": {
+      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=201",
+      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=201"
+    },
+    "trends": {
+      "current": { "trend": "neutral", "price": 18 },
+      "today": { "trend": "positive", "price": "+1" },
+      "day30": { "trend": "negative", "change": "-14.0%" },
+      "day90": { "trend": "negative", "change": "-37.0%" },
+      "day180": { "trend": "negative", "change": "-10.0%" }
+    }
+  },
+  "203": {
+    "id": 203,
+    "name": "Grimy tarromin",
+    "examine": "It needs cleaning.",
+    "category": { "id": -1, "name": "Default" },
+    "members": true,
+    "icons": {
+      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=203",
+      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=203"
+    },
+    "trends": {
+      "current": { "trend": "neutral", "price": 114 },
+      "today": { "trend": "negative", "price": "- 1" },
+      "day30": { "trend": "negative", "change": "-7.0%" },
+      "day90": { "trend": "negative", "change": "-3.0%" },
+      "day180": { "trend": "negative", "change": "-6.0%" }
+    }
+  },
+  "205": {
+    "id": 205,
+    "name": "Grimy harralander",
+    "examine": "It needs cleaning.",
+    "category": { "id": -1, "name": "Default" },
+    "members": true,
+    "icons": {
+      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=205",
+      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=205"
+    },
+    "trends": {
+      "current": { "trend": "neutral", "price": 796 },
+      "today": { "trend": "negative", "price": "- 4" },
+      "day30": { "trend": "positive", "change": "+4.0%" },
+      "day90": { "trend": "negative", "change": "-11.0%" },
+      "day180": { "trend": "positive", "change": "+16.0%" }
+    }
+  },
+  "207": {
+    "id": 207,
+    "name": "Grimy ranarr weed",
+    "examine": "It needs cleaning.",
+    "category": { "id": -1, "name": "Default" },
+    "members": true,
+    "icons": {
+      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=207",
+      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=207"
+    },
+    "trends": {
+      "current": { "trend": "neutral", "price": "9,264" },
+      "today": { "trend": "negative", "price": "- 77" },
+      "day30": { "trend": "positive", "change": "+10.0%" },
+      "day90": { "trend": "negative", "change": "-3.0%" },
+      "day180": { "trend": "positive", "change": "+29.0%" }
+    }
+  },
+  "209": {
+    "id": 209,
+    "name": "Grimy irit leaf",
+    "examine": "It needs cleaning.",
+    "category": { "id": -1, "name": "Default" },
+    "members": true,
+    "icons": {
+      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=209",
+      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=209"
+    },
+    "trends": {
+      "current": { "trend": "neutral", "price": 782 },
+      "today": { "trend": "positive", "price": "+9" },
+      "day30": { "trend": "negative", "change": "-0.0%" },
+      "day90": { "trend": "positive", "change": "+7.0%" },
+      "day180": { "trend": "positive", "change": "+16.0%" }
+    }
+  },
+  "211": {
+    "id": 211,
+    "name": "Grimy avantoe",
+    "examine": "It needs cleaning.",
+    "category": { "id": -1, "name": "Default" },
+    "members": true,
+    "icons": {
+      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=211",
+      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=211"
+    },
+    "trends": {
+      "current": { "trend": "neutral", "price": "1,557" },
+      "today": { "trend": "positive", "price": "+4" },
+      "day30": { "trend": "negative", "change": "-16.0%" },
+      "day90": { "trend": "negative", "change": "-34.0%" },
+      "day180": { "trend": "negative", "change": "-7.0%" }
+    }
+  },
+  "213": {
+    "id": 213,
+    "name": "Grimy kwuarm",
+    "examine": "It needs cleaning.",
+    "category": { "id": -1, "name": "Default" },
+    "members": true,
+    "icons": {
+      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=213",
+      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=213"
+    },
+    "trends": {
+      "current": { "trend": "neutral", "price": "1,623" },
+      "today": { "trend": "negative", "price": "- 4" },
+      "day30": { "trend": "negative", "change": "-3.0%" },
+      "day90": { "trend": "positive", "change": "+7.0%" },
+      "day180": { "trend": "positive", "change": "+12.0%" }
+    }
+  },
+  "215": {
+    "id": 215,
+    "name": "Grimy cadantine",
+    "examine": "It needs cleaning.",
+    "category": { "id": -1, "name": "Default" },
+    "members": true,
+    "icons": {
+      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=215",
+      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=215"
+    },
+    "trends": {
+      "current": { "trend": "neutral", "price": "1,701" },
+      "today": { "trend": "negative", "price": "- 22" },
+      "day30": { "trend": "negative", "change": "-10.0%" },
+      "day90": { "trend": "negative", "change": "-0.0%" },
+      "day180": { "trend": "positive", "change": "+1.0%" }
+    }
+  },
   "217": {
     "id": 217,
     "name": "Grimy dwarf weed",
@@ -503,22 +1691,742 @@
       "day180": { "trend": "positive", "change": "+1.0%" }
     }
   },
-  "361": {
-    "id": 361,
-    "name": "Tuna",
-    "examine": "Wow, this is a big fish.",
+  "219": {
+    "id": 219,
+    "name": "Grimy torstol",
+    "examine": "It needs cleaning.",
+    "category": { "id": -1, "name": "Default" },
+    "members": true,
+    "icons": {
+      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=219",
+      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=219"
+    },
+    "trends": {
+      "current": { "trend": "neutral", "price": "8,392" },
+      "today": { "trend": "positive", "price": "+9" },
+      "day30": { "trend": "negative", "change": "-3.0%" },
+      "day90": { "trend": "negative", "change": "-1.0%" },
+      "day180": { "trend": "positive", "change": "+7.0%" }
+    }
+  },
+  "221": {
+    "id": 221,
+    "name": "Eye of newt",
+    "examine": "It seems to be looking at me.",
     "category": { "id": -1, "name": "Default" },
     "members": false,
     "icons": {
-      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=361",
-      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=361"
+      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=221",
+      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=221"
     },
     "trends": {
-      "current": { "trend": "neutral", "price": 75 },
+      "current": { "trend": "neutral", "price": 4 },
+      "today": { "trend": "neutral", "price": 0 },
+      "day30": { "trend": "positive", "change": "+33.0%" },
+      "day90": { "trend": "neutral", "change": "0.0%" },
+      "day180": { "trend": "positive", "change": "+33.0%" }
+    }
+  },
+  "223": {
+    "id": 223,
+    "name": "Red spiders' eggs",
+    "examine": "Ewww!",
+    "category": { "id": -1, "name": "Default" },
+    "members": false,
+    "icons": {
+      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=223",
+      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=223"
+    },
+    "trends": {
+      "current": { "trend": "neutral", "price": 546 },
+      "today": { "trend": "negative", "price": "- 2" },
+      "day30": { "trend": "negative", "change": "-0.0%" },
+      "day90": { "trend": "negative", "change": "-18.0%" },
+      "day180": { "trend": "positive", "change": "+5.0%" }
+    }
+  },
+  "225": {
+    "id": 225,
+    "name": "Limpwurt root",
+    "examine": "The root of a limpwurt plant.",
+    "category": { "id": -1, "name": "Default" },
+    "members": false,
+    "icons": {
+      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=225",
+      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=225"
+    },
+    "trends": {
+      "current": { "trend": "neutral", "price": 712 },
+      "today": { "trend": "positive", "price": "+1" },
+      "day30": { "trend": "positive", "change": "+0.0%" },
+      "day90": { "trend": "negative", "change": "-2.0%" },
+      "day180": { "trend": "positive", "change": "+1.0%" }
+    }
+  },
+  "227": {
+    "id": 227,
+    "name": "Vial of water",
+    "examine": "A glass vial containing water.",
+    "category": { "id": -1, "name": "Default" },
+    "members": false,
+    "icons": {
+      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=227",
+      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=227"
+    },
+    "trends": {
+      "current": { "trend": "neutral", "price": 4 },
       "today": { "trend": "positive", "price": "+1" },
       "day30": { "trend": "neutral", "change": "0.0%" },
-      "day90": { "trend": "negative", "change": "-44.0%" },
-      "day180": { "trend": "negative", "change": "-3.0%" }
+      "day90": { "trend": "neutral", "change": "0.0%" },
+      "day180": { "trend": "neutral", "change": "0.0%" }
+    }
+  },
+  "229": {
+    "id": 229,
+    "name": "Vial",
+    "examine": "An empty glass vial.",
+    "category": { "id": -1, "name": "Default" },
+    "members": false,
+    "icons": {
+      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=229",
+      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=229"
+    },
+    "trends": {
+      "current": { "trend": "neutral", "price": 2 },
+      "today": { "trend": "negative", "price": "- 1" },
+      "day30": { "trend": "negative", "change": "-33.0%" },
+      "day90": { "trend": "neutral", "change": "0.0%" },
+      "day180": { "trend": "neutral", "change": "0.0%" }
+    }
+  },
+  "231": {
+    "id": 231,
+    "name": "Snape grass",
+    "examine": "Strange spiky grass.",
+    "category": { "id": -1, "name": "Default" },
+    "members": true,
+    "icons": {
+      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=231",
+      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=231"
+    },
+    "trends": {
+      "current": { "trend": "neutral", "price": 371 },
+      "today": { "trend": "positive", "price": "+1" },
+      "day30": { "trend": "positive", "change": "+13.0%" },
+      "day90": { "trend": "negative", "change": "-2.0%" },
+      "day180": { "trend": "positive", "change": "+44.0%" }
+    }
+  },
+  "233": {
+    "id": 233,
+    "name": "Pestle and mortar",
+    "examine": "I can grind things for potions in this.",
+    "category": { "id": -1, "name": "Default" },
+    "members": true,
+    "icons": {
+      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=233",
+      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=233"
+    },
+    "trends": {
+      "current": { "trend": "neutral", "price": 406 },
+      "today": { "trend": "positive", "price": "+13" },
+      "day30": { "trend": "positive", "change": "+24.0%" },
+      "day90": { "trend": "positive", "change": "+18.0%" },
+      "day180": { "trend": "positive", "change": "+28.0%" }
+    }
+  },
+  "235": {
+    "id": 235,
+    "name": "Unicorn horn dust",
+    "examine": "Finely ground horn of Unicorn.",
+    "category": { "id": -1, "name": "Default" },
+    "members": true,
+    "icons": {
+      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=235",
+      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=235"
+    },
+    "trends": {
+      "current": { "trend": "neutral", "price": 279 },
+      "today": { "trend": "negative", "price": "- 4" },
+      "day30": { "trend": "negative", "change": "-2.0%" },
+      "day90": { "trend": "positive", "change": "+10.0%" },
+      "day180": { "trend": "positive", "change": "+20.0%" }
+    }
+  },
+  "237": {
+    "id": 237,
+    "name": "Unicorn horn",
+    "examine": "This horn has restorative properties.",
+    "category": { "id": -1, "name": "Default" },
+    "members": true,
+    "icons": {
+      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=237",
+      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=237"
+    },
+    "trends": {
+      "current": { "trend": "neutral", "price": 211 },
+      "today": { "trend": "negative", "price": "- 5" },
+      "day30": { "trend": "negative", "change": "-8.0%" },
+      "day90": { "trend": "positive", "change": "+9.0%" },
+      "day180": { "trend": "positive", "change": "+19.0%" }
+    }
+  },
+  "239": {
+    "id": 239,
+    "name": "White berries",
+    "examine": "Sour berries, used in potions.",
+    "category": { "id": -1, "name": "Default" },
+    "members": true,
+    "icons": {
+      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=239",
+      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=239"
+    },
+    "trends": {
+      "current": { "trend": "neutral", "price": 348 },
+      "today": { "trend": "negative", "price": "- 2" },
+      "day30": { "trend": "positive", "change": "+27.0%" },
+      "day90": { "trend": "positive", "change": "+58.0%" },
+      "day180": { "trend": "positive", "change": "+112.0%" }
+    }
+  },
+  "241": {
+    "id": 241,
+    "name": "Dragon scale dust",
+    "examine": "Finely ground scale of Dragon.",
+    "category": { "id": -1, "name": "Default" },
+    "members": true,
+    "icons": {
+      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=241",
+      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=241"
+    },
+    "trends": {
+      "current": { "trend": "neutral", "price": 180 },
+      "today": { "trend": "neutral", "price": 0 },
+      "day30": { "trend": "negative", "change": "-0.0%" },
+      "day90": { "trend": "positive", "change": "+17.0%" },
+      "day180": { "trend": "positive", "change": "+32.0%" }
+    }
+  },
+  "243": {
+    "id": 243,
+    "name": "Blue dragon scale",
+    "examine": "A large shiny scale.",
+    "category": { "id": -1, "name": "Default" },
+    "members": true,
+    "icons": {
+      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=243",
+      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=243"
+    },
+    "trends": {
+      "current": { "trend": "neutral", "price": 907 },
+      "today": { "trend": "neutral", "price": 0 },
+      "day30": { "trend": "positive", "change": "+3.0%" },
+      "day90": { "trend": "positive", "change": "+12.0%" },
+      "day180": { "trend": "positive", "change": "+23.0%" }
+    }
+  },
+  "245": {
+    "id": 245,
+    "name": "Wine of zamorak",
+    "examine": "An evil wine for an evil god.",
+    "category": { "id": -1, "name": "Default" },
+    "members": false,
+    "icons": {
+      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=245",
+      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=245"
+    },
+    "trends": {
+      "current": { "trend": "neutral", "price": "1,076" },
+      "today": { "trend": "positive", "price": "+26" },
+      "day30": { "trend": "positive", "change": "+5.0%" },
+      "day90": { "trend": "positive", "change": "+11.0%" },
+      "day180": { "trend": "positive", "change": "+19.0%" }
+    }
+  },
+  "247": {
+    "id": 247,
+    "name": "Jangerberries",
+    "examine": "They don't look very ripe.",
+    "category": { "id": -1, "name": "Default" },
+    "members": true,
+    "icons": {
+      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=247",
+      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=247"
+    },
+    "trends": {
+      "current": { "trend": "neutral", "price": 274 },
+      "today": { "trend": "positive", "price": "+1" },
+      "day30": { "trend": "positive", "change": "+9.0%" },
+      "day90": { "trend": "positive", "change": "+6.0%" },
+      "day180": { "trend": "positive", "change": "+25.0%" }
+    }
+  },
+  "249": {
+    "id": 249,
+    "name": "Guam leaf",
+    "examine": "A bitter green herb.",
+    "category": { "id": -1, "name": "Default" },
+    "members": true,
+    "icons": {
+      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=249",
+      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=249"
+    },
+    "trends": {
+      "current": { "trend": "neutral", "price": 76 },
+      "today": { "trend": "negative", "price": "- 2" },
+      "day30": { "trend": "neutral", "change": "0.0%" },
+      "day90": { "trend": "positive", "change": "+49.0%" },
+      "day180": { "trend": "positive", "change": "+162.0%" }
+    }
+  },
+  "251": {
+    "id": 251,
+    "name": "Marrentill",
+    "examine": "A herb used in poison cures.",
+    "category": { "id": -1, "name": "Default" },
+    "members": true,
+    "icons": {
+      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=251",
+      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=251"
+    },
+    "trends": {
+      "current": { "trend": "neutral", "price": 36 },
+      "today": { "trend": "negative", "price": "- 1" },
+      "day30": { "trend": "neutral", "change": "0.0%" },
+      "day90": { "trend": "positive", "change": "+2.0%" },
+      "day180": { "trend": "positive", "change": "+5.0%" }
+    }
+  },
+  "253": {
+    "id": 253,
+    "name": "Tarromin",
+    "examine": "A useful herb.",
+    "category": { "id": -1, "name": "Default" },
+    "members": true,
+    "icons": {
+      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=253",
+      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=253"
+    },
+    "trends": {
+      "current": { "trend": "neutral", "price": 132 },
+      "today": { "trend": "negative", "price": "- 4" },
+      "day30": { "trend": "negative", "change": "-11.0%" },
+      "day90": { "trend": "positive", "change": "+5.0%" },
+      "day180": { "trend": "negative", "change": "-14.0%" }
+    }
+  },
+  "255": {
+    "id": 255,
+    "name": "Harralander",
+    "examine": "A useful herb.",
+    "category": { "id": -1, "name": "Default" },
+    "members": true,
+    "icons": {
+      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=255",
+      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=255"
+    },
+    "trends": {
+      "current": { "trend": "neutral", "price": 808 },
+      "today": { "trend": "negative", "price": "- 13" },
+      "day30": { "trend": "positive", "change": "+2.0%" },
+      "day90": { "trend": "negative", "change": "-14.0%" },
+      "day180": { "trend": "positive", "change": "+12.0%" }
+    }
+  },
+  "257": {
+    "id": 257,
+    "name": "Ranarr weed",
+    "examine": "A useful herb.",
+    "category": { "id": -1, "name": "Default" },
+    "members": true,
+    "icons": {
+      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=257",
+      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=257"
+    },
+    "trends": {
+      "current": { "trend": "neutral", "price": "9,345" },
+      "today": { "trend": "negative", "price": "- 58" },
+      "day30": { "trend": "positive", "change": "+10.0%" },
+      "day90": { "trend": "negative", "change": "-4.0%" },
+      "day180": { "trend": "positive", "change": "+28.0%" }
+    }
+  },
+  "259": {
+    "id": 259,
+    "name": "Irit leaf",
+    "examine": "A useful herb.",
+    "category": { "id": -1, "name": "Default" },
+    "members": true,
+    "icons": {
+      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=259",
+      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=259"
+    },
+    "trends": {
+      "current": { "trend": "neutral", "price": 810 },
+      "today": { "trend": "positive", "price": "+7" },
+      "day30": { "trend": "negative", "change": "-6.0%" },
+      "day90": { "trend": "positive", "change": "+3.0%" },
+      "day180": { "trend": "positive", "change": "+9.0%" }
+    }
+  },
+  "263": {
+    "id": 263,
+    "name": "Kwuarm",
+    "examine": "A powerful herb.",
+    "category": { "id": -1, "name": "Default" },
+    "members": true,
+    "icons": {
+      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=263",
+      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=263"
+    },
+    "trends": {
+      "current": { "trend": "neutral", "price": "1,628" },
+      "today": { "trend": "negative", "price": "- 19" },
+      "day30": { "trend": "negative", "change": "-4.0%" },
+      "day90": { "trend": "positive", "change": "+5.0%" },
+      "day180": { "trend": "positive", "change": "+8.0%" }
+    }
+  },
+  "313": {
+    "id": 313,
+    "name": "Fishing bait",
+    "examine": "For use with a fishing rod.",
+    "category": { "id": -1, "name": "Default" },
+    "members": false,
+    "icons": {
+      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=313",
+      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=313"
+    },
+    "trends": {
+      "current": { "trend": "neutral", "price": 4 },
+      "today": { "trend": "neutral", "price": 0 },
+      "day30": { "trend": "neutral", "change": "0.0%" },
+      "day90": { "trend": "negative", "change": "-20.0%" },
+      "day180": { "trend": "positive", "change": "+33.0%" }
+    }
+  },
+  "321": {
+    "id": 321,
+    "name": "Raw anchovies",
+    "examine": "I should try cooking this.",
+    "category": { "id": -1, "name": "Default" },
+    "members": false,
+    "icons": {
+      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=321",
+      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=321"
+    },
+    "trends": {
+      "current": { "trend": "neutral", "price": 61 },
+      "today": { "trend": "positive", "price": "+1" },
+      "day30": { "trend": "negative", "change": "-8.0%" },
+      "day90": { "trend": "negative", "change": "-3.0%" },
+      "day180": { "trend": "negative", "change": "-8.0%" }
+    }
+  },
+  "335": {
+    "id": 335,
+    "name": "Raw trout",
+    "examine": "I should try cooking this.",
+    "category": { "id": -1, "name": "Default" },
+    "members": false,
+    "icons": {
+      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=335",
+      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=335"
+    },
+    "trends": {
+      "current": { "trend": "neutral", "price": 97 },
+      "today": { "trend": "positive", "price": "+1" },
+      "day30": { "trend": "positive", "change": "+25.0%" },
+      "day90": { "trend": "positive", "change": "+24.0%" },
+      "day180": { "trend": "positive", "change": "+25.0%" }
+    }
+  },
+  "345": {
+    "id": 345,
+    "name": "Raw herring",
+    "examine": "I should try cooking this.",
+    "category": { "id": -1, "name": "Default" },
+    "members": false,
+    "icons": {
+      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=345",
+      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=345"
+    },
+    "trends": {
+      "current": { "trend": "neutral", "price": 106 },
+      "today": { "trend": "neutral", "price": 0 },
+      "day30": { "trend": "positive", "change": "+13.0%" },
+      "day90": { "trend": "positive", "change": "+19.0%" },
+      "day180": { "trend": "positive", "change": "+23.0%" }
+    }
+  },
+  "359": {
+    "id": 359,
+    "name": "Raw tuna",
+    "examine": "I should try cooking this.",
+    "category": { "id": -1, "name": "Default" },
+    "members": false,
+    "icons": {
+      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=359",
+      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=359"
+    },
+    "trends": {
+      "current": { "trend": "neutral", "price": 45 },
+      "today": { "trend": "positive", "price": "+1" },
+      "day30": { "trend": "negative", "change": "-21.0%" },
+      "day90": { "trend": "negative", "change": "-40.0%" },
+      "day180": { "trend": "positive", "change": "+32.0%" }
+    }
+  },
+  "373": {
+    "id": 373,
+    "name": "Swordfish",
+    "examine": "I'd better be careful eating this!",
+    "category": { "id": -1, "name": "Default" },
+    "members": false,
+    "icons": {
+      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=373",
+      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=373"
+    },
+    "trends": {
+      "current": { "trend": "neutral", "price": 373 },
+      "today": { "trend": "positive", "price": "+1" },
+      "day30": { "trend": "positive", "change": "+7.0%" },
+      "day90": { "trend": "negative", "change": "-12.0%" },
+      "day180": { "trend": "positive", "change": "+39.0%" }
+    }
+  },
+  "385": {
+    "id": 385,
+    "name": "Shark",
+    "examine": "I'd better be careful eating this.",
+    "category": { "id": -1, "name": "Default" },
+    "members": true,
+    "icons": {
+      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=385",
+      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=385"
+    },
+    "trends": {
+      "current": { "trend": "neutral", "price": 915 },
+      "today": { "trend": "negative", "price": "- 5" },
+      "day30": { "trend": "negative", "change": "-2.0%" },
+      "day90": { "trend": "positive", "change": "+3.0%" },
+      "day180": { "trend": "negative", "change": "-10.0%" }
+    }
+  },
+  "413": {
+    "id": 413,
+    "name": "Oyster pearls",
+    "examine": "I could work wonders with a chisel on these pearls.",
+    "category": { "id": -1, "name": "Default" },
+    "members": true,
+    "icons": {
+      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=413",
+      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=413"
+    },
+    "trends": {
+      "current": { "trend": "neutral", "price": 992 },
+      "today": { "trend": "positive", "price": "+42" },
+      "day30": { "trend": "negative", "change": "-11.0%" },
+      "day90": { "trend": "positive", "change": "+8.0%" },
+      "day180": { "trend": "positive", "change": "+19.0%" }
+    }
+  },
+  "428": {
+    "id": 428,
+    "name": "Priest gown",
+    "examine": "Bottom half of a priest suit.",
+    "category": { "id": -1, "name": "Default" },
+    "members": false,
+    "icons": {
+      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=428",
+      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=428"
+    },
+    "trends": {
+      "current": { "trend": "neutral", "price": 74 },
+      "today": { "trend": "negative", "price": "- 3" },
+      "day30": { "trend": "negative", "change": "-20.0%" },
+      "day90": { "trend": "negative", "change": "-27.0%" },
+      "day180": { "trend": "positive", "change": "+21.0%" }
+    }
+  },
+  "438": {
+    "id": 438,
+    "name": "Tin ore",
+    "examine": "This needs refining.",
+    "category": { "id": -1, "name": "Default" },
+    "members": false,
+    "icons": {
+      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=438",
+      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=438"
+    },
+    "trends": {
+      "current": { "trend": "neutral", "price": 76 },
+      "today": { "trend": "positive", "price": "+3" },
+      "day30": { "trend": "negative", "change": "-1.0%" },
+      "day90": { "trend": "neutral", "change": "0.0%" },
+      "day180": { "trend": "positive", "change": "+4.0%" }
+    }
+  },
+  "447": {
+    "id": 447,
+    "name": "Mithril ore",
+    "examine": "This needs refining.",
+    "category": { "id": -1, "name": "Default" },
+    "members": false,
+    "icons": {
+      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=447",
+      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=447"
+    },
+    "trends": {
+      "current": { "trend": "neutral", "price": 122 },
+      "today": { "trend": "positive", "price": "+1" },
+      "day30": { "trend": "negative", "change": "-1.0%" },
+      "day90": { "trend": "positive", "change": "+16.0%" },
+      "day180": { "trend": "positive", "change": "+22.0%" }
+    }
+  },
+  "528": {
+    "id": 528,
+    "name": "Burnt bones",
+    "examine": "Bones are for burying!",
+    "category": { "id": -1, "name": "Default" },
+    "members": false,
+    "icons": {
+      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=528",
+      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=528"
+    },
+    "trends": {
+      "current": { "trend": "neutral", "price": 316 },
+      "today": { "trend": "negative", "price": "- 14" },
+      "day30": { "trend": "negative", "change": "-9.0%" },
+      "day90": { "trend": "negative", "change": "-10.0%" },
+      "day180": { "trend": "negative", "change": "-32.0%" }
+    }
+  },
+  "542": {
+    "id": 542,
+    "name": "Monk's robe",
+    "examine": "Keeps a monk's knees nice and warm.",
+    "category": { "id": -1, "name": "Default" },
+    "members": false,
+    "icons": {
+      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=542",
+      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=542"
+    },
+    "trends": {
+      "current": { "trend": "neutral", "price": 412 },
+      "today": { "trend": "positive", "price": "+4" },
+      "day30": { "trend": "positive", "change": "+42.0%" },
+      "day90": { "trend": "positive", "change": "+30.0%" },
+      "day180": { "trend": "positive", "change": "+117.0%" }
+    }
+  },
+  "554": {
+    "id": 554,
+    "name": "Fire rune",
+    "examine": "One of the 4 basic elemental Runes.",
+    "category": { "id": -1, "name": "Default" },
+    "members": false,
+    "icons": {
+      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=554",
+      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=554"
+    },
+    "trends": {
+      "current": { "trend": "neutral", "price": 5 },
+      "today": { "trend": "neutral", "price": 0 },
+      "day30": { "trend": "neutral", "change": "0.0%" },
+      "day90": { "trend": "neutral", "change": "0.0%" },
+      "day180": { "trend": "negative", "change": "-16.0%" }
+    }
+  },
+  "560": {
+    "id": 560,
+    "name": "Death rune",
+    "examine": "Used for medium level missile spells.",
+    "category": { "id": -1, "name": "Default" },
+    "members": false,
+    "icons": {
+      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=560",
+      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=560"
+    },
+    "trends": {
+      "current": { "trend": "neutral", "price": 184 },
+      "today": { "trend": "positive", "price": "+3" },
+      "day30": { "trend": "negative", "change": "-1.0%" },
+      "day90": { "trend": "negative", "change": "-3.0%" },
+      "day180": { "trend": "negative", "change": "-15.0%" }
+    }
+  },
+  "567": {
+    "id": 567,
+    "name": "Unpowered orb",
+    "examine": "I'd prefer it if it was powered.",
+    "category": { "id": -1, "name": "Default" },
+    "members": true,
+    "icons": {
+      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=567",
+      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=567"
+    },
+    "trends": {
+      "current": { "trend": "neutral", "price": 113 },
+      "today": { "trend": "positive", "price": "+1" },
+      "day30": { "trend": "positive", "change": "+0.0%" },
+      "day90": { "trend": "negative", "change": "-46.0%" },
+      "day180": { "trend": "positive", "change": "+8.0%" }
+    }
+  },
+  "581": {
+    "id": 581,
+    "name": "Black robe",
+    "examine": "I can do magic better in this.",
+    "category": { "id": -1, "name": "Default" },
+    "members": false,
+    "icons": {
+      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=581",
+      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=581"
+    },
+    "trends": {
+      "current": { "trend": "neutral", "price": 818 },
+      "today": { "trend": "positive", "price": "+11" },
+      "day30": { "trend": "negative", "change": "-14.0%" },
+      "day90": { "trend": "positive", "change": "+9.0%" },
+      "day180": { "trend": "positive", "change": "+7.0%" }
+    }
+  },
+  "590": {
+    "id": 590,
+    "name": "Tinderbox",
+    "examine": "Useful for lighting a fire.",
+    "category": { "id": -1, "name": "Default" },
+    "members": false,
+    "icons": {
+      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=590",
+      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=590"
+    },
+    "trends": {
+      "current": { "trend": "neutral", "price": 50 },
+      "today": { "trend": "neutral", "price": 0 },
+      "day30": { "trend": "positive", "change": "+19.0%" },
+      "day90": { "trend": "negative", "change": "-26.0%" },
+      "day180": { "trend": "positive", "change": "+4.0%" }
+    }
+  },
+  "628": {
+    "id": 628,
+    "name": "Green boots",
+    "examine": "They're soft, silky and green.",
+    "category": { "id": -1, "name": "Default" },
+    "members": true,
+    "icons": {
+      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=628",
+      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=628"
+    },
+    "trends": {
+      "current": { "trend": "neutral", "price": 679 },
+      "today": { "trend": "neutral", "price": 0 },
+      "day30": { "trend": "positive", "change": "+5.0%" },
+      "day90": { "trend": "negative", "change": "-6.0%" },
+      "day180": { "trend": "negative", "change": "-11.0%" }
     }
   },
   "642": {
@@ -539,6 +2447,132 @@
       "day180": { "trend": "positive", "change": "+66.0%" }
     }
   },
+  "656": {
+    "id": 656,
+    "name": "Pink hat",
+    "examine": "A silly pink pointed hat.",
+    "category": { "id": -1, "name": "Default" },
+    "members": true,
+    "icons": {
+      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=656",
+      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=656"
+    },
+    "trends": {
+      "current": { "trend": "neutral", "price": 487 },
+      "today": { "trend": "neutral", "price": 0 },
+      "day30": { "trend": "negative", "change": "-5.0%" },
+      "day90": { "trend": "positive", "change": "+12.0%" },
+      "day180": { "trend": "positive", "change": "+31.0%" }
+    }
+  },
+  "804": {
+    "id": 804,
+    "name": "Adamant thrownaxe",
+    "examine": "A finely balanced throwing axe.",
+    "category": { "id": -1, "name": "Default" },
+    "members": true,
+    "icons": {
+      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=804",
+      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=804"
+    },
+    "trends": {
+      "current": { "trend": "neutral", "price": 321 },
+      "today": { "trend": "neutral", "price": 0 },
+      "day30": { "trend": "positive", "change": "+1.0%" },
+      "day90": { "trend": "positive", "change": "+4.0%" },
+      "day180": { "trend": "positive", "change": "+0.0%" }
+    }
+  },
+  "811": {
+    "id": 811,
+    "name": "Rune dart",
+    "examine": "A deadly throwing dart with a rune tip.",
+    "category": { "id": -1, "name": "Default" },
+    "members": true,
+    "icons": {
+      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=811",
+      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=811"
+    },
+    "trends": {
+      "current": { "trend": "neutral", "price": 345 },
+      "today": { "trend": "negative", "price": "- 3" },
+      "day30": { "trend": "negative", "change": "-0.0%" },
+      "day90": { "trend": "positive", "change": "+0.0%" },
+      "day180": { "trend": "positive", "change": "+0.0%" }
+    }
+  },
+  "817": {
+    "id": 817,
+    "name": "Rune dart(p)",
+    "examine": "A deadly poisoned dart with a rune tip.",
+    "category": { "id": -1, "name": "Default" },
+    "members": true,
+    "icons": {
+      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=817",
+      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=817"
+    },
+    "trends": {
+      "current": { "trend": "neutral", "price": 343 },
+      "today": { "trend": "positive", "price": "+2" },
+      "day30": { "trend": "positive", "change": "+0.0%" },
+      "day90": { "trend": "positive", "change": "+2.0%" },
+      "day180": { "trend": "positive", "change": "+3.0%" }
+    }
+  },
+  "824": {
+    "id": 824,
+    "name": "Rune dart tip",
+    "examine": "A deadly-looking dart tip made of runite - needs feathers for flight.",
+    "category": { "id": -1, "name": "Default" },
+    "members": true,
+    "icons": {
+      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=824",
+      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=824"
+    },
+    "trends": {
+      "current": { "trend": "neutral", "price": 818 },
+      "today": { "trend": "positive", "price": "+4" },
+      "day30": { "trend": "negative", "change": "-18.0%" },
+      "day90": { "trend": "negative", "change": "-12.0%" },
+      "day180": { "trend": "negative", "change": "-13.0%" }
+    }
+  },
+  "830": {
+    "id": 830,
+    "name": "Rune javelin",
+    "examine": "A rune tipped javelin.",
+    "category": { "id": -1, "name": "Default" },
+    "members": true,
+    "icons": {
+      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=830",
+      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=830"
+    },
+    "trends": {
+      "current": { "trend": "neutral", "price": 191 },
+      "today": { "trend": "positive", "price": "+5" },
+      "day30": { "trend": "positive", "change": "+5.0%" },
+      "day90": { "trend": "negative", "change": "-1.0%" },
+      "day180": { "trend": "positive", "change": "+3.0%" }
+    }
+  },
+  "837": {
+    "id": 837,
+    "name": "Crossbow",
+    "examine": "This fires crossbow bolts.",
+    "category": { "id": -1, "name": "Default" },
+    "members": false,
+    "icons": {
+      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=837",
+      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=837"
+    },
+    "trends": {
+      "current": { "trend": "neutral", "price": 242 },
+      "today": { "trend": "positive", "price": "+4" },
+      "day30": { "trend": "positive", "change": "+32.0%" },
+      "day90": { "trend": "positive", "change": "+16.0%" },
+      "day180": { "trend": "positive", "change": "+24.0%" }
+    }
+  },
   "849": {
     "id": 849,
     "name": "Willow shortbow",
@@ -557,760 +2591,346 @@
       "day180": { "trend": "negative", "change": "-13.0%" }
     }
   },
-  "989": {
-    "id": 989,
-    "name": "Crystal key",
-    "examine": "A mysterious key for a mysterious chest.",
-    "category": { "id": -1, "name": "Default" },
-    "members": true,
-    "icons": {
-      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=989",
-      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=989"
-    },
-    "trends": {
-      "current": { "trend": "neutral", "price": "21.6k" },
-      "today": { "trend": "negative", "price": "- 90" },
-      "day30": { "trend": "positive", "change": "+7.0%" },
-      "day90": { "trend": "positive", "change": "+7.0%" },
-      "day180": { "trend": "positive", "change": "+8.0%" }
-    }
-  },
-  "1199": {
-    "id": 1199,
-    "name": "Adamant kiteshield",
-    "examine": "A large metal shield.",
-    "category": { "id": -1, "name": "Default" },
-    "members": false,
-    "icons": {
-      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=1199",
-      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=1199"
-    },
-    "trends": {
-      "current": { "trend": "neutral", "price": "3,098" },
-      "today": { "trend": "positive", "price": "+102" },
-      "day30": { "trend": "positive", "change": "+5.0%" },
-      "day90": { "trend": "positive", "change": "+6.0%" },
-      "day180": { "trend": "positive", "change": "+8.0%" }
-    }
-  },
-  "1271": {
-    "id": 1271,
-    "name": "Adamant pickaxe",
-    "examine": "Used for mining.",
-    "category": { "id": -1, "name": "Default" },
-    "members": false,
-    "icons": {
-      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=1271",
-      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=1271"
-    },
-    "trends": {
-      "current": { "trend": "neutral", "price": "1,600" },
-      "today": { "trend": "positive", "price": "+7" },
-      "day30": { "trend": "negative", "change": "-1.0%" },
-      "day90": { "trend": "negative", "change": "-9.0%" },
-      "day180": { "trend": "negative", "change": "-5.0%" }
-    }
-  },
-  "1470": {
-    "id": 1470,
-    "name": "Red bead",
-    "examine": "A small round red bead.",
-    "category": { "id": -1, "name": "Default" },
-    "members": false,
-    "icons": {
-      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=1470",
-      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=1470"
-    },
-    "trends": {
-      "current": { "trend": "neutral", "price": 941 },
-      "today": { "trend": "negative", "price": "- 37" },
-      "day30": { "trend": "negative", "change": "-37.0%" },
-      "day90": { "trend": "negative", "change": "-19.0%" },
-      "day180": { "trend": "positive", "change": "+19.0%" }
-    }
-  },
-  "1539": {
-    "id": 1539,
-    "name": "Steel nails",
-    "examine": "Keeps things in place fairly permanently.",
-    "category": { "id": -1, "name": "Default" },
-    "members": false,
-    "icons": {
-      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=1539",
-      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=1539"
-    },
-    "trends": {
-      "current": { "trend": "neutral", "price": 15 },
-      "today": { "trend": "neutral", "price": 0 },
-      "day30": { "trend": "negative", "change": "-6.0%" },
-      "day90": { "trend": "neutral", "change": "0.0%" },
-      "day180": { "trend": "positive", "change": "+7.0%" }
-    }
-  },
-  "1609": {
-    "id": 1609,
-    "name": "Opal",
-    "examine": "A semi precious stone.",
-    "category": { "id": -1, "name": "Default" },
-    "members": true,
-    "icons": {
-      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=1609",
-      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=1609"
-    },
-    "trends": {
-      "current": { "trend": "neutral", "price": 540 },
-      "today": { "trend": "negative", "price": "- 2" },
-      "day30": { "trend": "negative", "change": "-17.0%" },
-      "day90": { "trend": "negative", "change": "-26.0%" },
-      "day180": { "trend": "positive", "change": "+90.0%" }
-    }
-  },
-  "1965": {
-    "id": 1965,
-    "name": "Cabbage",
-    "examine": "Yuck I don't like cabbage.",
-    "category": { "id": -1, "name": "Default" },
-    "members": false,
-    "icons": {
-      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=1965",
-      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=1965"
-    },
-    "trends": {
-      "current": { "trend": "neutral", "price": 51 },
-      "today": { "trend": "positive", "price": "+1" },
-      "day30": { "trend": "positive", "change": "+37.0%" },
-      "day90": { "trend": "positive", "change": "+70.0%" },
-      "day180": { "trend": "positive", "change": "+27.0%" }
-    }
-  },
-  "2034": {
-    "id": 2034,
-    "name": "Premade fr' blast",
-    "examine": "A premade Fruit Blast.",
-    "category": { "id": -1, "name": "Default" },
-    "members": true,
-    "icons": {
-      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=2034",
-      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=2034"
-    },
-    "trends": {
-      "current": { "trend": "neutral", "price": 31 },
-      "today": { "trend": "neutral", "price": 0 },
-      "day30": { "trend": "neutral", "change": "0.0%" },
-      "day90": { "trend": "neutral", "change": "0.0%" },
-      "day180": { "trend": "neutral", "change": "0.0%" }
-    }
-  },
-  "2313": {
-    "id": 2313,
-    "name": "Pie dish",
-    "examine": "Deceptively pie shaped.",
-    "category": { "id": -1, "name": "Default" },
-    "members": false,
-    "icons": {
-      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=2313",
-      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=2313"
-    },
-    "trends": {
-      "current": { "trend": "neutral", "price": 35 },
-      "today": { "trend": "neutral", "price": 0 },
-      "day30": { "trend": "positive", "change": "+29.0%" },
-      "day90": { "trend": "positive", "change": "+84.0%" },
-      "day180": { "trend": "positive", "change": "+16.0%" }
-    }
-  },
-  "2601": {
-    "id": 2601,
-    "name": "Adamant platelegs (t)",
-    "examine": "Adamant platelegs with trim.",
-    "category": { "id": -1, "name": "Default" },
-    "members": false,
-    "icons": {
-      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=2601",
-      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=2601"
-    },
-    "trends": {
-      "current": { "trend": "neutral", "price": "7,530" },
-      "today": { "trend": "negative", "price": "- 196" },
-      "day30": { "trend": "negative", "change": "-14.0%" },
-      "day90": { "trend": "negative", "change": "-20.0%" },
-      "day180": { "trend": "positive", "change": "+21.0%" }
-    }
-  },
-  "3351": {
-    "id": 3351,
-    "name": "Blamish blue shell",
-    "examine": "A large blue coloured blamish snail shell, looks protective.",
-    "category": { "id": -1, "name": "Default" },
-    "members": true,
-    "icons": {
-      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=3351",
-      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=3351"
-    },
-    "trends": {
-      "current": { "trend": "neutral", "price": 628 },
-      "today": { "trend": "positive", "price": "+18" },
-      "day30": { "trend": "positive", "change": "+17.0%" },
-      "day90": { "trend": "positive", "change": "+31.0%" },
-      "day180": { "trend": "positive", "change": "+61.0%" }
-    }
-  },
-  "4365": {
-    "id": 4365,
-    "name": "Team-26 cape",
-    "examine": "Ooohhh look at the pretty colours...",
-    "category": { "id": -1, "name": "Default" },
-    "members": false,
-    "icons": {
-      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=4365",
-      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=4365"
-    },
-    "trends": {
-      "current": { "trend": "neutral", "price": 72 },
-      "today": { "trend": "neutral", "price": 0 },
-      "day30": { "trend": "negative", "change": "-5.0%" },
-      "day90": { "trend": "negative", "change": "-5.0%" },
-      "day180": { "trend": "negative", "change": "-14.0%" }
-    }
-  },
-  "5667": {
-    "id": 5667,
-    "name": "Rune knife(p++)",
+  "863": {
+    "id": 863,
+    "name": "Iron knife",
     "examine": "A finely balanced throwing knife.",
     "category": { "id": -1, "name": "Default" },
     "members": true,
     "icons": {
-      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=5667",
-      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=5667"
+      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=863",
+      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=863"
     },
     "trends": {
-      "current": { "trend": "neutral", "price": 365 },
-      "today": { "trend": "negative", "price": "- 5" },
-      "day30": { "trend": "negative", "change": "-7.0%" },
-      "day90": { "trend": "positive", "change": "+10.0%" },
-      "day180": { "trend": "positive", "change": "+50.0%" }
-    }
-  },
-  "5940": {
-    "id": 5940,
-    "name": "Weapon poison(++)",
-    "examine": "A vial of super strong weapon poison, for spears and daggers.",
-    "category": { "id": -1, "name": "Default" },
-    "members": true,
-    "icons": {
-      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=5940",
-      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=5940"
-    },
-    "trends": {
-      "current": { "trend": "neutral", "price": "3,489" },
-      "today": { "trend": "negative", "price": "- 6" },
-      "day30": { "trend": "negative", "change": "-21.0%" },
-      "day90": { "trend": "negative", "change": "-13.0%" },
-      "day180": { "trend": "positive", "change": "+25.0%" }
-    }
-  },
-  "6147": {
-    "id": 6147,
-    "name": "Skeletal boots",
-    "examine": "Some finely crafted Fremennik boots, made from the bones of a wallasalki.",
-    "category": { "id": -1, "name": "Default" },
-    "members": true,
-    "icons": {
-      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=6147",
-      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=6147"
-    },
-    "trends": {
-      "current": { "trend": "neutral", "price": "44.0k" },
-      "today": { "trend": "neutral", "price": 0 },
-      "day30": { "trend": "negative", "change": "-0.0%" },
-      "day90": { "trend": "positive", "change": "+1.0%" },
+      "current": { "trend": "neutral", "price": 39 },
+      "today": { "trend": "positive", "price": "+1" },
+      "day30": { "trend": "positive", "change": "+18.0%" },
+      "day90": { "trend": "positive", "change": "+21.0%" },
       "day180": { "trend": "positive", "change": "+21.0%" }
     }
   },
-  "6351": {
-    "id": 6351,
-    "name": "Tribal top",
-    "examine": "Local dress.",
+  "869": {
+    "id": 869,
+    "name": "Black knife",
+    "examine": "A finely balanced throwing knife.",
     "category": { "id": -1, "name": "Default" },
     "members": true,
     "icons": {
-      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=6351",
-      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=6351"
+      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=869",
+      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=869"
     },
     "trends": {
-      "current": { "trend": "neutral", "price": "4,977" },
-      "today": { "trend": "positive", "price": "+11" },
-      "day30": { "trend": "negative", "change": "-1.0%" },
-      "day90": { "trend": "positive", "change": "+5.0%" },
-      "day180": { "trend": "positive", "change": "+4.0%" }
+      "current": { "trend": "neutral", "price": 46 },
+      "today": { "trend": "positive", "price": "+1" },
+      "day30": { "trend": "negative", "change": "-6.0%" },
+      "day90": { "trend": "positive", "change": "+9.0%" },
+      "day180": { "trend": "positive", "change": "+24.0%" }
     }
   },
-  "6627": {
-    "id": 6627,
-    "name": "White plateskirt",
-    "examine": "Big, White and heavy looking.",
+  "876": {
+    "id": 876,
+    "name": "Rune knife(p)",
+    "examine": "A finely balanced throwing knife.",
     "category": { "id": -1, "name": "Default" },
     "members": true,
     "icons": {
-      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=6627",
-      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=6627"
+      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=876",
+      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=876"
     },
     "trends": {
-      "current": { "trend": "neutral", "price": "2,916" },
+      "current": { "trend": "neutral", "price": 492 },
       "today": { "trend": "neutral", "price": 0 },
-      "day30": { "trend": "positive", "change": "+3.0%" },
-      "day90": { "trend": "positive", "change": "+7.0%" },
-      "day180": { "trend": "positive", "change": "+0.0%" }
+      "day30": { "trend": "positive", "change": "+6.0%" },
+      "day90": { "trend": "positive", "change": "+6.0%" },
+      "day180": { "trend": "positive", "change": "+35.0%" }
     }
   },
-  "6973": {
-    "id": 6973,
-    "name": "Sandstone (2kg)",
-    "examine": "A small chunk of sandstone.",
-    "category": { "id": -1, "name": "Default" },
-    "members": true,
-    "icons": {
-      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=6973",
-      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=6973"
-    },
-    "trends": {
-      "current": { "trend": "neutral", "price": 41 },
-      "today": { "trend": "neutral", "price": 0 },
-      "day30": { "trend": "negative", "change": "-4.0%" },
-      "day90": { "trend": "negative", "change": "-10.0%" },
-      "day180": { "trend": "positive", "change": "+7.0%" }
-    }
-  },
-  "7390": {
-    "id": 7390,
-    "name": "Blue wizard robe (g)",
-    "examine": "I can do magic better in this.",
+  "882": {
+    "id": 882,
+    "name": "Bronze arrow",
+    "examine": "Arrows with bronze heads.",
     "category": { "id": -1, "name": "Default" },
     "members": false,
     "icons": {
-      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=7390",
-      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=7390"
+      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=882",
+      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=882"
     },
     "trends": {
-      "current": { "trend": "neutral", "price": "185.6k" },
-      "today": { "trend": "positive", "price": "+459" },
-      "day30": { "trend": "negative", "change": "-27.0%" },
-      "day90": { "trend": "negative", "change": "-11.0%" },
-      "day180": { "trend": "negative", "change": "-15.0%" }
-    }
-  },
-  "9291": {
-    "id": 9291,
-    "name": "Runite bolts (p)",
-    "examine": "Some poisoned runite bolts.",
-    "category": { "id": -1, "name": "Default" },
-    "members": true,
-    "icons": {
-      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=9291",
-      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=9291"
-    },
-    "trends": {
-      "current": { "trend": "neutral", "price": 469 },
+      "current": { "trend": "neutral", "price": 3 },
       "today": { "trend": "neutral", "price": 0 },
-      "day30": { "trend": "positive", "change": "+8.0%" },
-      "day90": { "trend": "positive", "change": "+13.0%" },
-      "day180": { "trend": "positive", "change": "+36.0%" }
-    }
-  },
-  "9434": {
-    "id": 9434,
-    "name": "Bolt mould",
-    "examine": "A mould for creating silver crossbow bolts.",
-    "category": { "id": -1, "name": "Default" },
-    "members": true,
-    "icons": {
-      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=9434",
-      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=9434"
-    },
-    "trends": {
-      "current": { "trend": "neutral", "price": 2 },
-      "today": { "trend": "neutral", "price": 0 },
-      "day30": { "trend": "negative", "change": "-33.0%" },
-      "day90": { "trend": "negative", "change": "-50.0%" },
-      "day180": { "trend": "positive", "change": "+100.0%" }
-    }
-  },
-  "9858": {
-    "id": 9858,
-    "name": "Marble magic wardrobe",
-    "examine": "Marble magic wardrobe.",
-    "category": { "id": -1, "name": "Default" },
-    "members": true,
-    "icons": {
-      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=9858",
-      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=9858"
-    },
-    "trends": {
-      "current": { "trend": "neutral", "price": "445.7k" },
-      "today": { "trend": "neutral", "price": 0 },
-      "day30": { "trend": "neutral", "change": "0.0%" },
-      "day90": { "trend": "positive", "change": "+0.0%" },
-      "day180": { "trend": "positive", "change": "+3.0%" }
-    }
-  },
-  "10061": {
-    "id": 10061,
-    "name": "Desert camo top",
-    "examine": "This should make me harder to spot in desert areas.",
-    "category": { "id": -1, "name": "Default" },
-    "members": true,
-    "icons": {
-      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=10061",
-      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=10061"
-    },
-    "trends": {
-      "current": { "trend": "neutral", "price": "3,522" },
-      "today": { "trend": "neutral", "price": 0 },
-      "day30": { "trend": "positive", "change": "+0.0%" },
-      "day90": { "trend": "negative", "change": "-1.0%" },
-      "day180": { "trend": "positive", "change": "+1.0%" }
-    }
-  },
-  "10822": {
-    "id": 10822,
-    "name": "Yak-hide armour",
-    "examine": "Smelly yak body armour.",
-    "category": { "id": -1, "name": "Default" },
-    "members": true,
-    "icons": {
-      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=10822",
-      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=10822"
-    },
-    "trends": {
-      "current": { "trend": "neutral", "price": "1,223" },
-      "today": { "trend": "positive", "price": "+15" },
-      "day30": { "trend": "positive", "change": "+8.0%" },
-      "day90": { "trend": "negative", "change": "-5.0%" },
-      "day180": { "trend": "positive", "change": "+5.0%" }
-    }
-  },
-  "10891": {
-    "id": 10891,
-    "name": "Wooden cat",
-    "examine": "A wooden cat toy.",
-    "category": { "id": -1, "name": "Default" },
-    "members": true,
-    "icons": {
-      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=10891",
-      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=10891"
-    },
-    "trends": {
-      "current": { "trend": "neutral", "price": "2,954" },
-      "today": { "trend": "positive", "price": "+49" },
-      "day30": { "trend": "positive", "change": "+9.0%" },
-      "day90": { "trend": "positive", "change": "+5.0%" },
-      "day180": { "trend": "negative", "change": "-9.0%" }
-    }
-  },
-  "11384": {
-    "id": 11384,
-    "name": "Bronze hasta(p++)",
-    "examine": "A poison-tipped, one-handed bronze hasta.",
-    "category": { "id": -1, "name": "Default" },
-    "members": true,
-    "icons": {
-      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=11384",
-      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=11384"
-    },
-    "trends": {
-      "current": { "trend": "neutral", "price": "5,863" },
-      "today": { "trend": "neutral", "price": 0 },
-      "day30": { "trend": "neutral", "change": "0.0%" },
-      "day90": { "trend": "neutral", "change": "0.0%" },
-      "day180": { "trend": "negative", "change": "-0.0%" }
-    }
-  },
-  "11441": {
-    "id": 11441,
-    "name": "Strength mix(1)",
-    "examine": "One dose of fishy strength potion.",
-    "category": { "id": -1, "name": "Default" },
-    "members": true,
-    "icons": {
-      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=11441",
-      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=11441"
-    },
-    "trends": {
-      "current": { "trend": "neutral", "price": 331 },
-      "today": { "trend": "neutral", "price": 0 },
-      "day30": { "trend": "negative", "change": "-0.0%" },
-      "day90": { "trend": "negative", "change": "-0.0%" },
-      "day180": { "trend": "negative", "change": "-0.0%" }
-    }
-  },
-  "11517": {
-    "id": 11517,
-    "name": "Hunting mix(2)",
-    "examine": "Two doses of fishy Hunter potion.",
-    "category": { "id": -1, "name": "Default" },
-    "members": true,
-    "icons": {
-      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=11517",
-      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=11517"
-    },
-    "trends": {
-      "current": { "trend": "neutral", "price": 449 },
-      "today": { "trend": "neutral", "price": 0 },
-      "day30": { "trend": "neutral", "change": "0.0%" },
-      "day90": { "trend": "neutral", "change": "0.0%" },
-      "day180": { "trend": "positive", "change": "+3.0%" }
-    }
-  },
-  "12193": {
-    "id": 12193,
-    "name": "Ancient robe top",
-    "examine": "Ancient Vestments.",
-    "category": { "id": -1, "name": "Default" },
-    "members": true,
-    "icons": {
-      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=12193",
-      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=12193"
-    },
-    "trends": {
-      "current": { "trend": "neutral", "price": "90.2k" },
-      "today": { "trend": "positive", "price": "+3,406" },
-      "day30": { "trend": "positive", "change": "+13.0%" },
-      "day90": { "trend": "negative", "change": "-12.0%" },
-      "day180": { "trend": "positive", "change": "+18.0%" }
-    }
-  },
-  "12325": {
-    "id": 12325,
-    "name": "Navy cavalier",
-    "examine": "All for one and one for all!",
-    "category": { "id": -1, "name": "Default" },
-    "members": true,
-    "icons": {
-      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=12325",
-      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=12325"
-    },
-    "trends": {
-      "current": { "trend": "neutral", "price": "2,961" },
-      "today": { "trend": "neutral", "price": 0 },
-      "day30": { "trend": "negative", "change": "-26.0%" },
-      "day90": { "trend": "positive", "change": "+18.0%" },
-      "day180": { "trend": "positive", "change": "+129.0%" }
-    }
-  },
-  "12389": {
-    "id": 12389,
-    "name": "Gilded scimitar",
-    "examine": "Rune scimitar with gold plate.",
-    "category": { "id": -1, "name": "Default" },
-    "members": false,
-    "icons": {
-      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=12389",
-      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=12389"
-    },
-    "trends": {
-      "current": { "trend": "neutral", "price": "18.3m" },
-      "today": { "trend": "positive", "price": "+140.5k" },
-      "day30": { "trend": "positive", "change": "+0.0%" },
-      "day90": { "trend": "positive", "change": "+7.0%" },
-      "day180": { "trend": "positive", "change": "+8.0%" }
-    }
-  },
-  "12522": {
-    "id": 12522,
-    "name": "Red dragon mask",
-    "examine": "Do I look scary?",
-    "category": { "id": -1, "name": "Default" },
-    "members": true,
-    "icons": {
-      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=12522",
-      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=12522"
-    },
-    "trends": {
-      "current": { "trend": "neutral", "price": "5,580" },
-      "today": { "trend": "positive", "price": "+80" },
-      "day30": { "trend": "negative", "change": "-5.0%" },
-      "day90": { "trend": "negative", "change": "-14.0%" },
-      "day180": { "trend": "negative", "change": "-19.0%" }
-    }
-  },
-  "13020": {
-    "id": 13020,
-    "name": "Adamant gold-trimmed set (lg)",
-    "examine": "A set containing a full helm, platebody, legs and kiteshield.",
-    "category": { "id": -1, "name": "Default" },
-    "members": false,
-    "icons": {
-      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=13020",
-      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=13020"
-    },
-    "trends": {
-      "current": { "trend": "neutral", "price": "123.3k" },
-      "today": { "trend": "negative", "price": "- 3,546" },
-      "day30": { "trend": "negative", "change": "-8.0%" },
-      "day90": { "trend": "positive", "change": "+5.0%" },
-      "day180": { "trend": "positive", "change": "+73.0%" }
-    }
-  },
-  "19724": {
-    "id": 19724,
-    "name": "Left eye patch",
-    "examine": "A black piece of cloth on a string.",
-    "category": { "id": -1, "name": "Default" },
-    "members": true,
-    "icons": {
-      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=19724",
-      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=19724"
-    },
-    "trends": {
-      "current": { "trend": "neutral", "price": "4,819" },
-      "today": { "trend": "neutral", "price": 0 },
-      "day30": { "trend": "negative", "change": "-17.0%" },
-      "day90": { "trend": "negative", "change": "-27.0%" },
-      "day180": { "trend": "negative", "change": "-50.0%" }
-    }
-  },
-  "19964": {
-    "id": 19964,
-    "name": "Dark trousers",
-    "examine": "Dark tuxedo trousers with white stockings.",
-    "category": { "id": -1, "name": "Default" },
-    "members": true,
-    "icons": {
-      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=19964",
-      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=19964"
-    },
-    "trends": {
-      "current": { "trend": "neutral", "price": "1.4m" },
-      "today": { "trend": "neutral", "price": 0 },
-      "day30": { "trend": "negative", "change": "-1.0%" },
-      "day90": { "trend": "negative", "change": "-7.0%" },
-      "day180": { "trend": "negative", "change": "-1.0%" }
-    }
-  },
-  "20023": {
-    "id": 20023,
-    "name": "Greater demon mask",
-    "examine": "Evil.",
-    "category": { "id": -1, "name": "Default" },
-    "members": true,
-    "icons": {
-      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=20023",
-      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=20023"
-    },
-    "trends": {
-      "current": { "trend": "neutral", "price": "7,872" },
-      "today": { "trend": "positive", "price": "+270" },
-      "day30": { "trend": "negative", "change": "-9.0%" },
-      "day90": { "trend": "positive", "change": "+17.0%" },
-      "day180": { "trend": "negative", "change": "-22.0%" }
-    }
-  },
-  "20211": {
-    "id": 20211,
-    "name": "Team cape zero",
-    "examine": "Ooohhh look at the dirty colours...",
-    "category": { "id": -1, "name": "Default" },
-    "members": false,
-    "icons": {
-      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=20211",
-      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=20211"
-    },
-    "trends": {
-      "current": { "trend": "neutral", "price": "5.0m" },
-      "today": { "trend": "neutral", "price": 0 },
-      "day30": { "trend": "positive", "change": "+0.0%" },
-      "day90": { "trend": "positive", "change": "+24.0%" },
-      "day180": { "trend": "positive", "change": "+23.0%" }
-    }
-  },
-  "21646": {
-    "id": 21646,
-    "name": "Granite longsword",
-    "examine": "A razor sharp longsword made of stone.",
-    "category": { "id": -1, "name": "Default" },
-    "members": true,
-    "icons": {
-      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=21646",
-      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=21646"
-    },
-    "trends": {
-      "current": { "trend": "neutral", "price": "21.5k" },
-      "today": { "trend": "negative", "price": "- 57" },
-      "day30": { "trend": "positive", "change": "+7.0%" },
-      "day90": { "trend": "positive", "change": "+10.0%" },
-      "day180": { "trend": "positive", "change": "+3.0%" }
-    }
-  },
-  "23188": {
-    "id": 23188,
-    "name": "Guthix d'hide shield",
-    "examine": "Guthix blessed wooden shield covered in dragon leather.",
-    "category": { "id": -1, "name": "Default" },
-    "members": true,
-    "icons": {
-      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=23188",
-      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=23188"
-    },
-    "trends": {
-      "current": { "trend": "neutral", "price": "268.3k" },
-      "today": { "trend": "neutral", "price": 0 },
-      "day30": { "trend": "negative", "change": "-11.0%" },
-      "day90": { "trend": "negative", "change": "-12.0%" },
-      "day180": { "trend": "positive", "change": "+49.0%" }
-    }
-  },
-  "24621": {
-    "id": 24621,
-    "name": "Blighted vengeance sack",
-    "examine": "Enough power for a Vengeance, blighted so it can be used only in the Wilderness.",
-    "category": { "id": -1, "name": "Default" },
-    "members": true,
-    "icons": {
-      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=24621",
-      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=24621"
-    },
-    "trends": {
-      "current": { "trend": "neutral", "price": 106 },
-      "today": { "trend": "negative", "price": "- 2" },
-      "day30": { "trend": "negative", "change": "-15.0%" },
-      "day90": { "trend": "positive", "change": "+26.0%" },
-      "day180": { "trend": "negative", "change": "-10.0%" }
-    }
-  },
-  "26084": {
-    "id": 26084,
-    "name": "Sigil of the dwarves",
-    "examine": "A power enhancing sigil not yet attuned to you.",
-    "category": { "id": -1, "name": "Default" },
-    "members": true,
-    "icons": {
-      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=26084",
-      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=26084"
-    },
-    "trends": {
-      "current": { "trend": "neutral", "price": "100.0k" },
-      "today": { "trend": "neutral", "price": 0 },
-      "day30": { "trend": "neutral", "change": "0.0%" },
+      "day30": { "trend": "positive", "change": "+50.0%" },
       "day90": { "trend": "neutral", "change": "0.0%" },
       "day180": { "trend": "neutral", "change": "0.0%" }
     }
   },
-  "26557": {
-    "id": 26557,
-    "name": "Shattered relic hunter (t2) armour set",
-    "examine": "A set containing Shattered boots (t2), Shattered trousers (t2), Shattered top (t2) and Shattered hood (t2).",
+  "889": {
+    "id": 889,
+    "name": "Mithril arrow(p)",
+    "examine": "Venomous-looking arrows.",
     "category": { "id": -1, "name": "Default" },
     "members": true,
     "icons": {
-      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=26557",
-      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=26557"
+      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=889",
+      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=889"
     },
     "trends": {
-      "current": { "trend": "neutral", "price": "1.1m" },
+      "current": { "trend": "neutral", "price": 116 },
+      "today": { "trend": "neutral", "price": 0 },
+      "day30": { "trend": "neutral", "change": "0.0%" },
+      "day90": { "trend": "positive", "change": "+2.0%" },
+      "day180": { "trend": "positive", "change": "+2.0%" }
+    }
+  },
+  "954": {
+    "id": 954,
+    "name": "Rope",
+    "examine": "A coil of rope.",
+    "category": { "id": -1, "name": "Default" },
+    "members": false,
+    "icons": {
+      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=954",
+      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=954"
+    },
+    "trends": {
+      "current": { "trend": "neutral", "price": 45 },
+      "today": { "trend": "positive", "price": "+3" },
+      "day30": { "trend": "negative", "change": "-41.0%" },
+      "day90": { "trend": "negative", "change": "-32.0%" },
+      "day180": { "trend": "positive", "change": "+9.0%" }
+    }
+  },
+  "991": {
+    "id": 991,
+    "name": "Muddy key",
+    "examine": "It looks like the key to a chest (Used to open the muddy chest in the lava maze).",
+    "category": { "id": -1, "name": "Default" },
+    "members": false,
+    "icons": {
+      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=991",
+      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=991"
+    },
+    "trends": {
+      "current": { "trend": "neutral", "price": "2,566" },
+      "today": { "trend": "neutral", "price": 0 },
+      "day30": { "trend": "positive", "change": "+6.0%" },
+      "day90": { "trend": "negative", "change": "-11.0%" },
+      "day180": { "trend": "negative", "change": "-1.0%" }
+    }
+  },
+  "1013": {
+    "id": 1013,
+    "name": "Pink skirt",
+    "examine": "A ladies skirt.",
+    "category": { "id": -1, "name": "Default" },
+    "members": false,
+    "icons": {
+      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=1013",
+      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=1013"
+    },
+    "trends": {
+      "current": { "trend": "neutral", "price": 76 },
+      "today": { "trend": "neutral", "price": 0 },
+      "day30": { "trend": "positive", "change": "+11.0%" },
+      "day90": { "trend": "negative", "change": "-25.0%" },
+      "day180": { "trend": "negative", "change": "-1.0%" }
+    }
+  },
+  "1027": {
+    "id": 1027,
+    "name": "Green cape",
+    "examine": "A thick green cape.",
+    "category": { "id": -1, "name": "Default" },
+    "members": false,
+    "icons": {
+      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=1027",
+      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=1027"
+    },
+    "trends": {
+      "current": { "trend": "neutral", "price": 797 },
+      "today": { "trend": "neutral", "price": 0 },
+      "day30": { "trend": "negative", "change": "-4.0%" },
+      "day90": { "trend": "positive", "change": "+4.0%" },
+      "day180": { "trend": "positive", "change": "+14.0%" }
+    }
+  },
+  "1038": {
+    "id": 1038,
+    "name": "Red partyhat",
+    "examine": "A nice hat from a cracker.",
+    "category": { "id": -1, "name": "Default" },
+    "members": false,
+    "icons": {
+      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=1038",
+      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=1038"
+    },
+    "trends": {
+      "current": { "trend": "neutral", "price": "3,073" },
       "today": { "trend": "neutral", "price": 0 },
       "day30": { "trend": "positive", "change": "+3.0%" },
-      "day90": { "trend": "positive", "change": "+29.0%" },
-      "day180": { "trend": "positive", "change": "+34.0%" }
+      "day90": { "trend": "positive", "change": "+23.0%" },
+      "day180": { "trend": "positive", "change": "+9.0%" }
+    }
+  },
+  "1063": {
+    "id": 1063,
+    "name": "Leather vambraces",
+    "examine": "Better than no armour!",
+    "category": { "id": -1, "name": "Default" },
+    "members": false,
+    "icons": {
+      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=1063",
+      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=1063"
+    },
+    "trends": {
+      "current": { "trend": "neutral", "price": 15 },
+      "today": { "trend": "neutral", "price": 0 },
+      "day30": { "trend": "neutral", "change": "0.0%" },
+      "day90": { "trend": "positive", "change": "+150.0%" },
+      "day180": { "trend": "positive", "change": "+200.0%" }
+    }
+  },
+  "1077": {
+    "id": 1077,
+    "name": "Black platelegs",
+    "examine": "Big, black and heavy looking.",
+    "category": { "id": -1, "name": "Default" },
+    "members": false,
+    "icons": {
+      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=1077",
+      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=1077"
+    },
+    "trends": {
+      "current": { "trend": "neutral", "price": 996 },
+      "today": { "trend": "negative", "price": "- 16" },
+      "day30": { "trend": "negative", "change": "-17.0%" },
+      "day90": { "trend": "negative", "change": "-33.0%" },
+      "day180": { "trend": "positive", "change": "+4.0%" }
+    }
+  },
+  "1091": {
+    "id": 1091,
+    "name": "Adamant plateskirt",
+    "examine": "Designer leg protection.",
+    "category": { "id": -1, "name": "Default" },
+    "members": false,
+    "icons": {
+      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=1091",
+      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=1091"
+    },
+    "trends": {
+      "current": { "trend": "neutral", "price": "4,043" },
+      "today": { "trend": "positive", "price": "+193" },
+      "day30": { "trend": "positive", "change": "+7.0%" },
+      "day90": { "trend": "positive", "change": "+10.0%" },
+      "day180": { "trend": "positive", "change": "+11.0%" }
+    }
+  },
+  "1105": {
+    "id": 1105,
+    "name": "Steel chainbody",
+    "examine": "A series of connected metal rings.",
+    "category": { "id": -1, "name": "Default" },
+    "members": false,
+    "icons": {
+      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=1105",
+      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=1105"
+    },
+    "trends": {
+      "current": { "trend": "neutral", "price": 278 },
+      "today": { "trend": "positive", "price": "+6" },
+      "day30": { "trend": "negative", "change": "-1.0%" },
+      "day90": { "trend": "positive", "change": "+8.0%" },
+      "day180": { "trend": "positive", "change": "+7.0%" }
+    }
+  },
+  "1117": {
+    "id": 1117,
+    "name": "Bronze platebody",
+    "examine": "Provides excellent protection.",
+    "category": { "id": -1, "name": "Default" },
+    "members": false,
+    "icons": {
+      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=1117",
+      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=1117"
+    },
+    "trends": {
+      "current": { "trend": "neutral", "price": 99 },
+      "today": { "trend": "positive", "price": "+5" },
+      "day30": { "trend": "positive", "change": "+54.0%" },
+      "day90": { "trend": "positive", "change": "+80.0%" },
+      "day180": { "trend": "positive", "change": "+37.0%" }
+    }
+  },
+  "1131": {
+    "id": 1131,
+    "name": "Hardleather body",
+    "examine": "Harder than normal leather.",
+    "category": { "id": -1, "name": "Default" },
+    "members": false,
+    "icons": {
+      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=1131",
+      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=1131"
+    },
+    "trends": {
+      "current": { "trend": "neutral", "price": 12 },
+      "today": { "trend": "neutral", "price": 0 },
+      "day30": { "trend": "positive", "change": "+9.0%" },
+      "day90": { "trend": "positive", "change": "+20.0%" },
+      "day180": { "trend": "positive", "change": "+50.0%" }
+    }
+  },
+  "1143": {
+    "id": 1143,
+    "name": "Mithril med helm",
+    "examine": "A medium sized helmet.",
+    "category": { "id": -1, "name": "Default" },
+    "members": false,
+    "icons": {
+      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=1143",
+      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=1143"
+    },
+    "trends": {
+      "current": { "trend": "neutral", "price": 305 },
+      "today": { "trend": "negative", "price": "- 9" },
+      "day30": { "trend": "positive", "change": "+0.0%" },
+      "day90": { "trend": "positive", "change": "+1.0%" },
+      "day180": { "trend": "negative", "change": "-3.0%" }
+    }
+  },
+  "1157": {
+    "id": 1157,
+    "name": "Steel full helm",
+    "examine": "A full face helmet.",
+    "category": { "id": -1, "name": "Default" },
+    "members": false,
+    "icons": {
+      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=1157",
+      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=1157"
+    },
+    "trends": {
+      "current": { "trend": "neutral", "price": 140 },
+      "today": { "trend": "positive", "price": "+5" },
+      "day30": { "trend": "neutral", "change": "0.0%" },
+      "day90": { "trend": "positive", "change": "+2.0%" },
+      "day180": { "trend": "positive", "change": "+11.0%" }
+    }
+  },
+  "1171": {
+    "id": 1171,
+    "name": "Wooden shield",
+    "examine": "A solid wooden shield.",
+    "category": { "id": -1, "name": "Default" },
+    "members": false,
+    "icons": {
+      "default": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_sprite.gif?id=1171",
+      "large": "https://secure.runescape.com/m=itemdb_oldschool/1654684188257_obj_big.gif?id=1171"
+    },
+    "trends": {
+      "current": { "trend": "neutral", "price": 101 },
+      "today": { "trend": "neutral", "price": 0 },
+      "day30": { "trend": "positive", "change": "+3.0%" },
+      "day90": { "trend": "positive", "change": "+6.0%" },
+      "day180": { "trend": "negative", "change": "-9.0%" }
     }
   }
 }
