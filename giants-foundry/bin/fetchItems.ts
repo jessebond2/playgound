@@ -9,7 +9,7 @@ type ItemRecord = Record<number, Item>;
 
 const LIMIT = 30000;
 const CONCURRENCY_LIMIT = 1;
-const THROTTLE_WAIT = 1000;
+const THROTTLE_WAIT = 500;
 const badIds: number[] = [];
 
 async function fetchResult(id: number) {
@@ -25,6 +25,7 @@ async function fetchResult(id: number) {
         error.message.indexOf("HTTPError: Response code 404 (Not Found)") >= 0
       ) {
         badIds.push(id);
+        return;
       } else {
         await sleep(30000);
       }
@@ -116,7 +117,7 @@ async function writeBadItemData(data: number[]) {
   const writeStream = createWriteStream(
     join(__dirname, "..", "data", "badItemIds.txt")
   );
-  writeStream.write(data.join(","));
+  writeStream.write(data.sort().join(","));
   writeStream.on("finish", () => {
     console.log("Finished writing file");
     writeStream.end();
@@ -164,7 +165,7 @@ async function main() {
 
       if (progress > 0 && progress % 20 === 0) {
         writeItemData(sortItems(items));
-        writeBadItemData(badIds);
+        writeBadItemData([...badItemIds, ...badIds]);
       }
 
       await sleep(THROTTLE_WAIT);
@@ -177,7 +178,7 @@ async function main() {
   );
 
   writeItemData(sortItems(items));
-  writeBadItemData(badIds);
+  writeBadItemData([...badItemIds, ...badIds]);
 }
 
 (async () => {
