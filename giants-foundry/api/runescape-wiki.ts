@@ -1,4 +1,5 @@
 import axios from "axios";
+import { WikiMapping, WikiPriceRecord } from "../utils/types";
 
 // https://oldschool.runescape.wiki/w/RuneScape:Real-time_Prices
 export const BASE_URL = "https://prices.runescape.wiki/api/v1/osrs";
@@ -10,25 +11,10 @@ export const ROUTES = {
   TIME_SERIES: "/timeseries",
 };
 
-type WikiItem = {
-  high: number;
-  highTime: number;
-  low: number;
-  lowTime: number;
+export type LatestResponse = {
+  data: WikiPriceRecord;
 };
-
-type ItemMapping = {
-  examine: string;
-  id: number;
-  members: boolean;
-  lowalch: number;
-  highalch: number;
-  icon: string;
-  name: string;
-};
-
-type LatestResponse = Record<string, WikiItem>;
-type ItemMappingResponse = [ItemMapping];
+export type ItemMappingResponse = [WikiMapping];
 
 const userAgent = `Giant's Foundry calculator - ${process.env.DISCORD_USER}`;
 const instance = axios.create({
@@ -39,12 +25,14 @@ const instance = axios.create({
 });
 console.info(`runescape-wiki api instantiated with User-Agent: ${userAgent}`);
 
-export async function getLatest() {
-  return instance.get<LatestResponse>(ROUTES.LATEST, {
-    transformResponse: (res) => res.data,
-  });
+export function getLatest() {
+  return instance
+    .get<LatestResponse>(ROUTES.LATEST)
+    .then((response) => response.data.data);
 }
 
-export async function getItemMapping() {
-  return instance.get<ItemMappingResponse>(ROUTES.LATEST);
+export function getItemMapping() {
+  return instance
+    .get<ItemMappingResponse>(ROUTES.MAPPING)
+    .then((response) => response.data);
 }
