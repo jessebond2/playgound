@@ -3,7 +3,7 @@ import Head from "next/head";
 import { WikiMapping, WikiPriceRecord } from "../utils/types";
 import { getItemMapping, getLatest } from "../api/runescape-wiki";
 import React, { useCallback, useState } from "react";
-import Link from "next/link";
+import { Header } from "../components/header";
 
 const RENDER_LIMIT = 100;
 const foundryRegex =
@@ -60,7 +60,7 @@ const Prices: NextPage<PricesProps> = ({ items, latestPrices }) => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <Link href="/">Home</Link>
+        <Header />
         <h1>Prices</h1>
         <div>
           <input

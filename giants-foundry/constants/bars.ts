@@ -1,8 +1,19 @@
+export enum Metals {
+  BRONZE = 2349,
+  IRON = 2351,
+  STEEL = 2353,
+  MITHRIL = 2359,
+  ADAMANT = 2361,
+  RUNE = 2363,
+}
+
+
 export const bars = {
-  2361: "Adamantite bar",
-  2349: "Bronze bar",
-  2351: "Iron bar",
-  2359: "Mithril bar",
-  2363: "Runite bar",
-  2353: "Steel bar",
+  [Metals.BRONZE]: "Bronze bar",
+  [Metals.IRON]: "Iron bar",
+  [Metals.STEEL]: "Steel bar",
+  [Metals.MITHRIL]: "Mithril bar",
+  [Metals.ADAMANT]: "Adamantite bar",
+  [Metals.RUNE]: "Runite bar",
 };
+

@@ -1,11 +1,11 @@
-interface FoundryItem {
+export interface FoundryItem {
   name: string;
   recycledBars: number;
 }
 
-type FoundryMetal = Record<number, FoundryItem>;
+export type FoundryMetal = Record<number, FoundryItem>;
 
-export const Adamant: FoundryMetal = {
+export const adamant: FoundryMetal = {
   1317: { name: "Adamant 2h sword", recycledBars: 2 },
   1371: { name: "Adamant battleaxe", recycledBars: 2 },
   1111: { name: "Adamant chainbody", recycledBars: 2 },
@@ -21,7 +21,7 @@ export const Adamant: FoundryMetal = {
   1345: { name: "Adamant warhammer", recycledBars: 2 },
 };
 
-export const Bronze: FoundryMetal = {
+export const bronze: FoundryMetal = {
   1307: { name: "Bronze 2h sword", recycledBars: 2 },
   1375: { name: "Bronze battleaxe", recycledBars: 2 },
   1103: { name: "Bronze chainbody", recycledBars: 2 },
@@ -37,7 +37,7 @@ export const Bronze: FoundryMetal = {
   1337: { name: "Bronze warhammer", recycledBars: 2 },
 };
 
-export const Iron: FoundryMetal = {
+export const iron: FoundryMetal = {
   1309: { name: "Iron 2h sword", recycledBars: 2 },
   1363: { name: "Iron battleaxe", recycledBars: 2 },
   1101: { name: "Iron chainbody", recycledBars: 2 },
@@ -53,7 +53,7 @@ export const Iron: FoundryMetal = {
   1335: { name: "Iron warhammer", recycledBars: 2 },
 };
 
-export const Mithril: FoundryMetal = {
+export const mithril: FoundryMetal = {
   1315: { name: "Mithril 2h sword", recycledBars: 2 },
   1369: { name: "Mithril battleaxe", recycledBars: 2 },
   1109: { name: "Mithril chainbody", recycledBars: 2 },
@@ -69,7 +69,7 @@ export const Mithril: FoundryMetal = {
   1343: { name: "Mithril warhammer", recycledBars: 2 },
 };
 
-export const Rune: FoundryMetal = {
+export const rune: FoundryMetal = {
   1319: { name: "Rune 2h sword", recycledBars: 2 },
   1373: { name: "Rune battleaxe", recycledBars: 2 },
   1113: { name: "Rune chainbody", recycledBars: 2 },
@@ -85,7 +85,7 @@ export const Rune: FoundryMetal = {
   1347: { name: "Rune warhammer", recycledBars: 2 },
 };
 
-export const Steel: FoundryMetal = {
+export const steel: FoundryMetal = {
   1311: { name: "Steel 2h sword", recycledBars: 2 },
   1365: { name: "Steel battleaxe", recycledBars: 2 },
   1105: { name: "Steel chainbody", recycledBars: 2 },
