@@ -114,3 +114,7 @@
     flex-direction: column;
   }
 }
+
+.flex_column {
+  flex-direction: column;
+}
