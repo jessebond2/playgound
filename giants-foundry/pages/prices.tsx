@@ -40,7 +40,7 @@ const Prices: NextPage<PricesProps> = ({ items, latestPrices }) => {
   }, []);
   const filteredItems = items
     .filter((item) => item.name.toLowerCase().includes(filter))
-    .filter((item) => metalBarRegex.test(item.name))
+    //.filter((item) => metalBarRegex.test(item.name))
     .filter((item) => !blockedIds.includes(item.id));
 
   const handleCopy = useCallback(() => {
