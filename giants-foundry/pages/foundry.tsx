@@ -80,11 +80,13 @@ const Foundry: NextPage<Foundry> = ({ barPrices, itemPrices }) => {
       </Head>
       <main>
         <Header />
-        <h1>Giant&apos;s Foundry calculator</h1>
-        <div className={styles.contentWrapper}>
+        <h1 className="font-sans text-slate-900 text-xl">
+          Giant&apos;s Foundry calculator
+        </h1>
+        <div className="grid grid-cols-3 gap-4">
           {Object.entries(itemPrices).map(([key, priceRecord]) => (
-            <table key={key} className={styles.tableWrapper}>
-              <caption>
+            <table key={key} className="p-2 box-border outline outline-2">
+              <caption className="text-slate-800 text-lg">
                 {bars[key as unknown as Metals]}:{" "}
                 {barPrices[key as unknown as Metals].price}gp
               </caption>
@@ -97,14 +99,18 @@ const Foundry: NextPage<Foundry> = ({ barPrices, itemPrices }) => {
                   <th>Delta</th>
                 </tr>
               </thead>
-              <tbody>
+              <tbody className="">
                 {Object.entries(priceRecord).map(([id, item]) => (
-                  <tr key={id} className={item.lowest ? styles.lowest : ""}>
-                    <td>{item.name}</td>
-                    <td>{item.price}gp</td>
-                    <td>{item.recycledBars}</td>
-                    <td>{item.pricePerBar}gp</td>
-                    <td>
+                  <tr key={id} className={item.lowest ? "bg-green-400" : ""}>
+                    <td className="font-mono text-slate-600">{item.name}</td>
+                    <td className="font-mono text-slate-600">{item.price}gp</td>
+                    <td className="font-mono text-slate-600">
+                      {item.recycledBars}
+                    </td>
+                    <td className="font-mono text-slate-600">
+                      {item.pricePerBar}gp
+                    </td>
+                    <td className="font-mono text-slate-600">
                       {barPrices[parseInt(key)].price - (item.pricePerBar || 0)}
                     </td>
                   </tr>
